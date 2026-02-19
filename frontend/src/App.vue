@@ -2,9 +2,30 @@
   <div class="container">
     <h1>校园美食推荐系统</h1>
 
-    <div class="input-section">
-      <el-input v-model="userId" placeholder="用户ID (0-499)" style="width: 200px; margin-right: 10px"/>
-      <el-input-number v-model="topk" :min="1" :max="20" :value="10" style="margin-right: 10px"/>
+    <!-- 登录状态栏 -->
+    <div class="auth-section" v-if="!isLoggedIn">
+      <el-tabs v-model="activeTab">
+        <el-tab-pane label="登录" name="login">
+          <el-input v-model="loginForm.username" placeholder="用户名" style="width: 200px; margin: 5px"/>
+          <el-input v-model="loginForm.password" placeholder="密码" type="password" style="width: 200px; margin: 5px"/>
+          <el-button type="primary" @click="handleLogin">登录</el-button>
+        </el-tab-pane>
+        <el-tab-pane label="注册" name="register">
+          <el-input v-model="registerForm.username" placeholder="用户名" style="width: 200px; margin: 5px"/>
+          <el-input v-model="registerForm.password" placeholder="密码" type="password" style="width: 200px; margin: 5px"/>
+          <el-button type="success" @click="handleRegister">注册</el-button>
+        </el-tab-pane>
+      </el-tabs>
+    </div>
+
+    <div class="auth-section" v-else>
+      <span>欢迎，{{ currentUser.username }}</span>
+      <el-button type="info" size="small" @click="logout" style="margin-left: 10px">退出</el-button>
+    </div>
+
+    <!-- 推荐功能 -->
+    <div class="input-section" v-if="isLoggedIn">
+      <el-input-number v-model="topk" :min="1" :max="100" :value="10" style="margin-right: 10px"/>
       <el-button type="primary" @click="getRecommendations" :loading="loading">获取推荐</el-button>
     </div>
 
@@ -37,21 +58,80 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import axios from 'axios'
 import { ElMessage } from 'element-plus'
 
-const userId = ref('0')
+// 认证状态
+const activeTab = ref('login')
+const token = ref(localStorage.getItem('token') || '')
+const currentUser = ref(JSON.parse(localStorage.getItem('user') || '{}'))
+
+const isLoggedIn = computed(() => !!token.value)
+
+const loginForm = ref({ username: '', password: '' })
+const registerForm = ref({ username: '', password: '' })
+
+// 推荐状态
 const topk = ref(10)
 const loading = ref(false)
 const recommendations = ref([])
 const fromCache = ref(false)
 
+// 设置 axios 默认头
+if (token.value) {
+  axios.defaults.headers.common['Authorization'] = `Bearer ${token.value}`
+}
+
+const handleLogin = async () => {
+  try {
+    const response = await axios.post('http://localhost:5000/api/v1/auth/login', loginForm.value)
+    token.value = response.data.access_token
+    currentUser.value = {
+      user_id: response.data.user_id,
+      username: response.data.username
+    }
+    localStorage.setItem('token', token.value)
+    localStorage.setItem('user', JSON.stringify(currentUser.value))
+    axios.defaults.headers.common['Authorization'] = `Bearer ${token.value}`
+    ElMessage.success('登录成功')
+  } catch (error) {
+    ElMessage.error(error.response?.data?.message || '登录失败')
+  }
+}
+
+const handleRegister = async () => {
+  try {
+    const response = await axios.post('http://localhost:5000/api/v1/auth/register', registerForm.value)
+    token.value = response.data.access_token
+    currentUser.value = {
+      user_id: response.data.user_id,
+      username: response.data.username
+    }
+    localStorage.setItem('token', token.value)
+    localStorage.setItem('user', JSON.stringify(currentUser.value))
+    axios.defaults.headers.common['Authorization'] = `Bearer ${token.value}`
+    ElMessage.success('注册成功')
+  } catch (error) {
+    ElMessage.error(error.response?.data?.message || '注册失败')
+  }
+}
+
+const logout = () => {
+  token.value = ''
+  currentUser.value = {}
+  localStorage.removeItem('token')
+  localStorage.removeItem('user')
+  delete axios.defaults.headers.common['Authorization']
+  recommendations.value = []
+  ElMessage.info('已退出')
+}
+
 const getRecommendations = async () => {
   loading.value = true
   try {
     const response = await axios.post('http://localhost:5000/api/v1/rec/', {
-      user_id: parseInt(userId.value),
+      user_id: currentUser.value.user_id,
       topk: topk.value
     })
     recommendations.value = response.data.recommendations
@@ -73,6 +153,13 @@ const handleImageError = (e) => {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.auth-section {
+  margin: 20px 0;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
 }
 
 .input-section {

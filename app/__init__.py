@@ -11,6 +11,7 @@ from flask_cors import CORS # 跨域资源共享支持，允许前端（Vue3）�
 from .config import Config  # 从当前包导入配置类（. 表示相对导入）
 from .extensions import jwt # 导入 JWTManager 实例（已创建但未绑定应用）
 from .api.hello import hello_bp # 导入 hello 蓝图（命名空间），目前仅包含测试接口
+from .api.auth import auth_bp
 from rec.api.rec_api_stub import rec_bp  # 新增导入
 import os
 
@@ -44,5 +45,6 @@ def create_app():   # 应用工厂函数，返回配置完成的 Flask 应用实
     # 注册命名空间
     api.add_namespace(hello_bp, path='/hello')
     api.add_namespace(rec_bp, path='/api/v1/rec')  # 新增推荐接口
+    api.add_namespace(auth_bp, path='/api/v1/auth')
 
     return app  # 返回配置完成的应用实例，供 run.py 或 WSGI 服务器使用
