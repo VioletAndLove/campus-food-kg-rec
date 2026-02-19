@@ -3898,5 +3898,9105 @@
       "鸡枞;牛肝菌;高汤"
     ],
     "note": "上海理工"
+  },
+  {
+    "file": "bj_301.jpg",
+    "dish": "蒜泥白肉",
+    "price": 18,
+    "tags": [
+      "蒜香",
+      "微辣"
+    ],
+    "ingredients": [
+      "五花肉;蒜泥;辣椒油"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_302.jpg",
+    "dish": "酱爆鸡丁",
+    "price": 12,
+    "tags": [
+      "酱香",
+      "微甜"
+    ],
+    "ingredients": [
+      "鸡肉;黄酱;黄瓜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_303.jpg",
+    "dish": "干煸四季豆",
+    "price": 10,
+    "tags": [
+      "干辣",
+      "脆嫩"
+    ],
+    "ingredients": [
+      "四季豆;肉末;干辣椒"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_304.jpg",
+    "dish": "小炒黄牛肉",
+    "price": 16,
+    "tags": [
+      "香辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "黄牛肉;香菜;小米辣"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_305.jpg",
+    "dish": "酸汤肥牛",
+    "price": 15,
+    "tags": [
+      "酸辣",
+      "金针菇"
+    ],
+    "ingredients": [
+      "肥牛;酸汤;金针菇"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "sh_306.jpg",
+    "dish": "鸡汁百叶包",
+    "price": 8,
+    "tags": [
+      "鲜咸",
+      "鸡汁"
+    ],
+    "ingredients": [
+      "猪肉;百叶;鸡汁"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_307.jpg",
+    "dish": "蟹粉狮子头",
+    "price": 14,
+    "tags": [
+      "蟹香",
+      "肉圆"
+    ],
+    "ingredients": [
+      "猪肉;蟹粉;高汤"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_308.jpg",
+    "dish": "油焖春笋",
+    "price": 9,
+    "tags": [
+      "鲜咸",
+      "春笋"
+    ],
+    "ingredients": [
+      "春笋;酱油;糖"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_309.jpg",
+    "dish": "葱烤河鲫鱼",
+    "price": 13,
+    "tags": [
+      "葱香",
+      "河鲜"
+    ],
+    "ingredients": [
+      "河鲫鱼;大葱;生抽"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_310.jpg",
+    "dish": "荠菜豆腐羹",
+    "price": 6,
+    "tags": [
+      "清香",
+      "荠菜"
+    ],
+    "ingredients": [
+      "荠菜;嫩豆腐;高汤"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "bj_311.jpg",
+    "dish": "辣炒花蛤",
+    "price": 12,
+    "tags": [
+      "鲜辣",
+      "花蛤"
+    ],
+    "ingredients": [
+      "花蛤;干辣椒;蒜末"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_312.jpg",
+    "dish": "酱骨头",
+    "price": 19,
+    "tags": [
+      "酱香",
+      "浓肉"
+    ],
+    "ingredients": [
+      "猪脊骨;黄豆酱;八角"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_313.jpg",
+    "dish": "白菜炖豆腐",
+    "price": 6,
+    "tags": [
+      "清淡",
+      "炖煮"
+    ],
+    "ingredients": [
+      "白菜;豆腐;虾皮"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_314.jpg",
+    "dish": "芹菜炒肉丝",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "脆嫩"
+    ],
+    "ingredients": [
+      "猪肉;芹菜;红椒"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_315.jpg",
+    "dish": "蒜苗回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "蒜苗"
+    ],
+    "ingredients": [
+      "五花肉;蒜苗;豆瓣酱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "sh_316.jpg",
+    "dish": "上海炒素",
+    "price": 7,
+    "tags": [
+      "清淡",
+      "素炒"
+    ],
+    "ingredients": [
+      "豆芽;韭菜;千张"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_317.jpg",
+    "dish": "开洋干丝",
+    "price": 9,
+    "tags": [
+      "鲜咸",
+      "开洋"
+    ],
+    "ingredients": [
+      "干丝;海米;高汤"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_318.jpg",
+    "dish": "糖醋藕片",
+    "price": 6,
+    "tags": [
+      "酸甜",
+      "脆藕"
+    ],
+    "ingredients": [
+      "藕片;糖;醋"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_319.jpg",
+    "dish": "红烧带鱼",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "带鱼"
+    ],
+    "ingredients": [
+      "带鱼;酱油;糖"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_320.jpg",
+    "dish": "芙蓉银鱼",
+    "price": 10,
+    "tags": [
+      "滑嫩",
+      "银鱼"
+    ],
+    "ingredients": [
+      "银鱼;蛋清;牛奶"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "bj_321.jpg",
+    "dish": "孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_322.jpg",
+    "dish": "黑椒牛柳粒",
+    "price": 16,
+    "tags": [
+      "黑椒",
+      "嫩牛"
+    ],
+    "ingredients": [
+      "牛柳;黑胡椒;洋葱"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_323.jpg",
+    "dish": "铁板茄子",
+    "price": 9,
+    "tags": [
+      "酱香",
+      "茄子"
+    ],
+    "ingredients": [
+      "茄子;肉末;铁板"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_324.jpg",
+    "dish": "干锅土豆片",
+    "price": 8,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土豆;五花肉;干辣椒"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_325.jpg",
+    "dish": "口水杏鲍菇",
+    "price": 7,
+    "tags": [
+      "麻辣",
+      "杏鲍菇"
+    ],
+    "ingredients": [
+      "杏鲍菇;花椒;辣椒油"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "sh_326.jpg",
+    "dish": "本帮鳝丝",
+    "price": 18,
+    "tags": [
+      "鲜咸",
+      "鳝鱼"
+    ],
+    "ingredients": [
+      "鳝鱼;韭菜;生抽"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_327.jpg",
+    "dish": "油爆河虾",
+    "price": 16,
+    "tags": [
+      "油爆",
+      "河虾"
+    ],
+    "ingredients": [
+      "河虾;糖;生抽"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_328.jpg",
+    "dish": "红烧素鸡",
+    "price": 6,
+    "tags": [
+      "酱香",
+      "素鸡"
+    ],
+    "ingredients": [
+      "素鸡;酱油;糖"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_329.jpg",
+    "dish": "四喜烤麸",
+    "price": 5,
+    "tags": [
+      "甜咸",
+      "烤麸"
+    ],
+    "ingredients": [
+      "烤麸;木耳;花生"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_330.jpg",
+    "dish": "荠菜冬笋",
+    "price": 8,
+    "tags": [
+      "清香",
+      "脆嫩"
+    ],
+    "ingredients": [
+      "荠菜;冬笋;盐"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "bj_331.jpg",
+    "dish": "辣白菜炒五花肉",
+    "price": 12,
+    "tags": [
+      "酸辣",
+      "白菜"
+    ],
+    "ingredients": [
+      "五花肉;辣白菜;青椒"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_332.jpg",
+    "dish": "韩式泡菜炒饭",
+    "price": 10,
+    "tags": [
+      "微辣",
+      "泡菜"
+    ],
+    "ingredients": [
+      "米饭;泡菜;鸡蛋"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_333.jpg",
+    "dish": "芝士焗红薯",
+    "price": 9,
+    "tags": [
+      "奶香",
+      "芝士"
+    ],
+    "ingredients": [
+      "红薯;马苏里拉;奶油"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_334.jpg",
+    "dish": "日式照烧鸡排",
+    "price": 13,
+    "tags": [
+      "照烧",
+      "甜咸"
+    ],
+    "ingredients": [
+      "鸡排;照烧汁;西兰花"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_335.jpg",
+    "dish": "泰式冬阴功汤",
+    "price": 14,
+    "tags": [
+      "酸辣",
+      "香茅"
+    ],
+    "ingredients": [
+      "虾;香茅;柠檬叶"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "sh_336.jpg",
+    "dish": "越南河粉",
+    "price": 11,
+    "tags": [
+      "清汤",
+      "河粉"
+    ],
+    "ingredients": [
+      "河粉;牛肉;九层塔"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_337.jpg",
+    "dish": "新加坡叻沙",
+    "price": 12,
+    "tags": [
+      "椰浆",
+      "微辣"
+    ],
+    "ingredients": [
+      "米粉;椰浆;虾"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_338.jpg",
+    "dish": "马来西亚炒粿条",
+    "price": 10,
+    "tags": [
+      "黑豉",
+      "微辣"
+    ],
+    "ingredients": [
+      "粿条;豆芽;鸡蛋"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_339.jpg",
+    "dish": "印尼炒饭",
+    "price": 9,
+    "tags": [
+      "甜辣",
+      "炒饭"
+    ],
+    "ingredients": [
+      "米饭;鸡肉;虾片"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_340.jpg",
+    "dish": "菲律宾烤鸡",
+    "price": 12,
+    "tags": [
+      "香茅",
+      "烤鸡"
+    ],
+    "ingredients": [
+      "鸡肉;香茅;柠檬"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "bj_341.jpg",
+    "dish": "意式奶油培根面",
+    "price": 16,
+    "tags": [
+      "奶香",
+      "培根"
+    ],
+    "ingredients": [
+      "意面;培根;奶油"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_342.jpg",
+    "dish": "西班牙海鲜饭",
+    "price": 18,
+    "tags": [
+      "藏红",
+      "海鲜"
+    ],
+    "ingredients": [
+      "米饭;藏红花;海鲜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_343.jpg",
+    "dish": "法式红酒炖牛肉",
+    "price": 20,
+    "tags": [
+      "红酒",
+      "牛肉"
+    ],
+    "ingredients": [
+      "牛肉;红酒;胡萝卜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_344.jpg",
+    "dish": "德式烤猪肘",
+    "price": 22,
+    "tags": [
+      "咸香",
+      "脆皮"
+    ],
+    "ingredients": [
+      "猪肘;啤酒;芥末"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_345.jpg",
+    "dish": "俄式罗宋汤",
+    "price": 10,
+    "tags": [
+      "酸甜",
+      "红菜"
+    ],
+    "ingredients": [
+      "红菜头;牛肉;番茄"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "sh_346.jpg",
+    "dish": "美式汉堡排",
+    "price": 14,
+    "tags": [
+      "黑椒",
+      "牛排"
+    ],
+    "ingredients": [
+      "牛肉;黑胡椒;土豆"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_347.jpg",
+    "dish": "墨西哥鸡肉卷",
+    "price": 11,
+    "tags": [
+      "辣香",
+      "卷饼"
+    ],
+    "ingredients": [
+      "鸡肉;生菜;莎莎酱"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_348.jpg",
+    "dish": "巴西烤牛排",
+    "price": 19,
+    "tags": [
+      "粗盐",
+      "炭烤"
+    ],
+    "ingredients": [
+      "牛排;粗盐;柠檬"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_349.jpg",
+    "dish": "阿根廷红虾",
+    "price": 18,
+    "tags": [
+      "盐烤",
+      "红虾"
+    ],
+    "ingredients": [
+      "红虾;海盐;柠檬"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_350.jpg",
+    "dish": "秘鲁酸橘汁腌鱼",
+    "price": 16,
+    "tags": [
+      "酸橘",
+      "生腌"
+    ],
+    "ingredients": [
+      "鲈鱼;酸橘;辣椒"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "bj_351.jpg",
+    "dish": "东北饭包",
+    "price": 8,
+    "tags": [
+      "酱香",
+      "饭包"
+    ],
+    "ingredients": [
+      "米饭;鸡蛋;生菜"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_352.jpg",
+    "dish": "铁锅炖大鹅",
+    "price": 20,
+    "tags": [
+      "酱香",
+      "大鹅"
+    ],
+    "ingredients": [
+      "大鹅;土豆;干豆角"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_353.jpg",
+    "dish": "东北粘豆包",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "豆包"
+    ],
+    "ingredients": [
+      "糯米粉;红豆;糖"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_354.jpg",
+    "dish": "锦州烧烤",
+    "price": 2,
+    "tags": [
+      "孜然",
+      "炭烤"
+    ],
+    "ingredients": [
+      "羊肉;孜然;辣椒面"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_355.jpg",
+    "dish": "抚顺麻辣拌",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "拌菜"
+    ],
+    "ingredients": [
+      "土豆;藕片;麻辣酱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_356.jpg",
+    "dish": "哈尔滨红肠",
+    "price": 6,
+    "tags": [
+      "蒜香",
+      "红肠"
+    ],
+    "ingredients": [
+      "红肠;大蒜;芥末"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_357.jpg",
+    "dish": "齐齐哈尔烤肉",
+    "price": 14,
+    "tags": [
+      "孜然",
+      "炭烤"
+    ],
+    "ingredients": [
+      "牛肉;孜然;洋葱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_358.jpg",
+    "dish": "大庆扒鸡",
+    "price": 11,
+    "tags": [
+      "五香",
+      "扒鸡"
+    ],
+    "ingredients": [
+      "土鸡;香料;糖"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_359.jpg",
+    "dish": "佳木斯拌面",
+    "price": 9,
+    "tags": [
+      "酱香",
+      "拌面"
+    ],
+    "ingredients": [
+      "面条;肉酱;黄瓜"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_360.jpg",
+    "dish": "东北大拉皮",
+    "price": 7,
+    "tags": [
+      "酸辣",
+      "拉皮"
+    ],
+    "ingredients": [
+      "拉皮;黄瓜;醋"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "sh_361.jpg",
+    "dish": "湖北热干面",
+    "price": 8,
+    "tags": [
+      "麻酱",
+      "干拌"
+    ],
+    "ingredients": [
+      "碱面;芝麻酱;萝卜丁"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_362.jpg",
+    "dish": "武汉豆皮",
+    "price": 4,
+    "tags": [
+      "豆皮",
+      "糯米"
+    ],
+    "ingredients": [
+      "糯米;鸡蛋;豆皮"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_363.jpg",
+    "dish": "武昌鱼",
+    "price": 16,
+    "tags": [
+      "清蒸",
+      "武昌鱼"
+    ],
+    "ingredients": [
+      "武昌鱼;蒸鱼豉油;葱"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_364.jpg",
+    "dish": "荆州鱼糕",
+    "price": 10,
+    "tags": [
+      "嫩滑",
+      "鱼糜"
+    ],
+    "ingredients": [
+      "草鱼糜;蛋清;淀粉"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_365.jpg",
+    "dish": "洪湖鸭焖莲藕",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "藕香"
+    ],
+    "ingredients": [
+      "土鸭;莲藕;生抽"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_366.jpg",
+    "dish": "湖南剁椒鱼头",
+    "price": 19,
+    "tags": [
+      "剁椒",
+      "鱼头"
+    ],
+    "ingredients": [
+      "胖头鱼;剁椒;蒸制"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_367.jpg",
+    "dish": "口味虾",
+    "price": 16,
+    "tags": [
+      "口味",
+      "麻辣"
+    ],
+    "ingredients": [
+      "小龙虾;剁椒;花椒"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_368.jpg",
+    "dish": "长沙糖油粑粑",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "油炸"
+    ],
+    "ingredients": [
+      "糯米粉;红糖;油"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_369.jpg",
+    "dish": "湖南酱板鸭",
+    "price": 15,
+    "tags": [
+      "酱香",
+      "板鸭"
+    ],
+    "ingredients": [
+      "麻鸭;酱卤;辣椒"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_370.jpg",
+    "dish": "刮凉粉",
+    "price": 5,
+    "tags": [
+      "酸辣",
+      "爽滑"
+    ],
+    "ingredients": [
+      "凉粉;醋;辣椒"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_371.jpg",
+    "dish": "江西瓦罐汤",
+    "price": 8,
+    "tags": [
+      "瓦罐",
+      "炖汤"
+    ],
+    "ingredients": [
+      "土鸡;山药;枸杞"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_372.jpg",
+    "dish": "南昌拌粉",
+    "price": 7,
+    "tags": [
+      "酸辣",
+      "拌粉"
+    ],
+    "ingredients": [
+      "米粉;醋;辣椒"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_373.jpg",
+    "dish": "鄱阳湖胖鱼头",
+    "price": 17,
+    "tags": [
+      "鲜辣",
+      "鱼头"
+    ],
+    "ingredients": [
+      "胖头鱼;辣椒;蒸制"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_374.jpg",
+    "dish": "景德镇冷粉",
+    "price": 6,
+    "tags": [
+      "冷吃",
+      "酸辣"
+    ],
+    "ingredients": [
+      "米粉;醋;辣椒"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_375.jpg",
+    "dish": "九江茶饼",
+    "price": 3,
+    "tags": [
+      "茶香",
+      "酥脆"
+    ],
+    "ingredients": [
+      "面粉;茶油;芝麻"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_376.jpg",
+    "dish": "四川回锅肉",
+    "price": 12,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_377.jpg",
+    "dish": "成都麻婆豆腐",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "嫩豆"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_378.jpg",
+    "dish": "重庆水煮鱼",
+    "price": 16,
+    "tags": [
+      "麻辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "草鱼;豆芽;干辣椒"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_379.jpg",
+    "dish": "乐山钵钵鸡",
+    "price": 10,
+    "tags": [
+      "麻辣",
+      "冷串"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;辣椒油"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_380.jpg",
+    "dish": "宜宾燃面",
+    "price": 7,
+    "tags": [
+      "干香",
+      "燃面"
+    ],
+    "ingredients": [
+      "面条;芽菜;花生"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_381.jpg",
+    "dish": "云南过桥米线",
+    "price": 10,
+    "tags": [
+      "清汤",
+      "米线"
+    ],
+    "ingredients": [
+      "米线;土鸡;韭菜"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_382.jpg",
+    "dish": "汽锅鸡",
+    "price": 16,
+    "tags": [
+      "清汤",
+      "汽锅"
+    ],
+    "ingredients": [
+      "土鸡;汽锅;枸杞"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_383.jpg",
+    "dish": "宣威火腿",
+    "price": 20,
+    "tags": [
+      "咸香",
+      "火腿"
+    ],
+    "ingredients": [
+      "宣威火腿;蜂蜜;白酒"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_384.jpg",
+    "dish": "云南饵块",
+    "price": 6,
+    "tags": [
+      "软糯",
+      "饵块"
+    ],
+    "ingredients": [
+      "饵块;肉末;酸菜"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_385.jpg",
+    "dish": "野生菌火锅",
+    "price": 25,
+    "tags": [
+      "菌香",
+      "火锅"
+    ],
+    "ingredients": [
+      "鸡枞;牛肝菌;高汤"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_386.jpg",
+    "dish": "海南文昌鸡",
+    "price": 22,
+    "tags": [
+      "清淡",
+      "原味"
+    ],
+    "ingredients": [
+      "文昌鸡;生姜;葱"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_387.jpg",
+    "dish": "加积鸭",
+    "price": 20,
+    "tags": [
+      "咸鲜",
+      "肥美"
+    ],
+    "ingredients": [
+      "加积鸭;盐;生姜"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_388.jpg",
+    "dish": "东山羊",
+    "price": 18,
+    "tags": [
+      "无膻",
+      "羊肉"
+    ],
+    "ingredients": [
+      "东山羊;清汤;枸杞"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_389.jpg",
+    "dish": "和乐蟹",
+    "price": 16,
+    "tags": [
+      "鲜甜",
+      "蟹肉"
+    ],
+    "ingredients": [
+      "和乐蟹;蒸制;姜醋"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_390.jpg",
+    "dish": "海南粉",
+    "price": 8,
+    "tags": [
+      "酸辣",
+      "米粉"
+    ],
+    "ingredients": [
+      "海南粉;酸菜;牛肉干"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_391.jpg",
+    "dish": "广西螺蛳粉",
+    "price": 9,
+    "tags": [
+      "酸辣",
+      "臭笋"
+    ],
+    "ingredients": [
+      "米粉;酸笋;腐竹"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_392.jpg",
+    "dish": "桂林米粉",
+    "price": 8,
+    "tags": [
+      "卤香",
+      "干粉"
+    ],
+    "ingredients": [
+      "米粉;卤汁;叉烧"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_393.jpg",
+    "dish": "阳朔啤酒鱼",
+    "price": 17,
+    "tags": [
+      "啤酒",
+      "鱼香"
+    ],
+    "ingredients": [
+      "漓江鱼;啤酒;番茄"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_394.jpg",
+    "dish": "荔浦芋扣肉",
+    "price": 15,
+    "tags": [
+      "软糯",
+      "芋香"
+    ],
+    "ingredients": [
+      "五花肉;荔浦芋;腐乳"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_395.jpg",
+    "dish": "梧州纸包鸡",
+    "price": 14,
+    "tags": [
+      "纸包",
+      "锁汁"
+    ],
+    "ingredients": [
+      "三黄鸡;香菇;蚝油"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_396.jpg",
+    "dish": "河南烩面",
+    "price": 10,
+    "tags": [
+      "浓汤",
+      "烩面"
+    ],
+    "ingredients": [
+      "羊汤;宽面;海带"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_397.jpg",
+    "dish": "郑州胡辣汤",
+    "price": 6,
+    "tags": [
+      "胡辣",
+      "早餐"
+    ],
+    "ingredients": [
+      "牛肉;面筋;胡椒"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_398.jpg",
+    "dish": "开封灌汤包",
+    "price": 5,
+    "tags": [
+      "灌汤",
+      "小笼"
+    ],
+    "ingredients": [
+      "猪肉;皮冻;薄皮"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_399.jpg",
+    "dish": "洛阳水席燕菜",
+    "price": 20,
+    "tags": [
+      "酸辣",
+      "燕窝丝"
+    ],
+    "ingredients": [
+      "白萝卜;燕窝;高汤"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_400.jpg",
+    "dish": "道口烧鸡",
+    "price": 15,
+    "tags": [
+      "五香",
+      "烧鸡"
+    ],
+    "ingredients": [
+      "土鸡;香料;糖"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "bj_401.jpg",
+    "dish": "椒麻鸡丝",
+    "price": 16,
+    "tags": [
+      "椒麻",
+      "微辣"
+    ],
+    "ingredients": [
+      "鸡胸肉;花椒油;小葱"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_402.jpg",
+    "dish": "酸菜汆白肉",
+    "price": 13,
+    "tags": [
+      "酸爽",
+      "汆煮"
+    ],
+    "ingredients": [
+      "五花肉;酸菜;粉丝"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_403.jpg",
+    "dish": "蒜蓉粉丝蒸扇贝",
+    "price": 18,
+    "tags": [
+      "蒜香",
+      "海鲜"
+    ],
+    "ingredients": [
+      "扇贝;粉丝;大蒜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_404.jpg",
+    "dish": "干煎小黄鱼",
+    "price": 12,
+    "tags": [
+      "干香",
+      "煎制"
+    ],
+    "ingredients": [
+      "小黄鱼;盐;生姜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_405.jpg",
+    "dish": "酱焖茄子",
+    "price": 8,
+    "tags": [
+      "酱香",
+      "软烂"
+    ],
+    "ingredients": [
+      "茄子;黄豆酱;肉末"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "sh_406.jpg",
+    "dish": "上海白切羊肉",
+    "price": 14,
+    "tags": [
+      "清淡",
+      "原味"
+    ],
+    "ingredients": [
+      "带皮羊肉;生姜;葱"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_407.jpg",
+    "dish": "红烧羊肉",
+    "price": 15,
+    "tags": [
+      "酱香",
+      "浓味"
+    ],
+    "ingredients": [
+      "羊肉;冰糖;酱油"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_408.jpg",
+    "dish": "羊肉炉",
+    "price": 13,
+    "tags": [
+      "药膳",
+      "温补"
+    ],
+    "ingredients": [
+      "羊肉;当归;枸杞"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_409.jpg",
+    "dish": "清炖羊蝎子",
+    "price": 12,
+    "tags": [
+      "清鲜",
+      "羊蝎"
+    ],
+    "ingredients": [
+      "羊蝎子;白萝卜;生姜"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_410.jpg",
+    "dish": "铁板孜然羊肉",
+    "price": 17,
+    "tags": [
+      "孜然",
+      "铁板"
+    ],
+    "ingredients": [
+      "羊肉;孜然;洋葱"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "bj_411.jpg",
+    "dish": "西北手抓羊肉",
+    "price": 16,
+    "tags": [
+      "原味",
+      "手抓"
+    ],
+    "ingredients": [
+      "羊肋排;花椒盐;洋葱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_412.jpg",
+    "dish": "兰州拉面",
+    "price": 9,
+    "tags": [
+      "清汤",
+      "牛肉"
+    ],
+    "ingredients": [
+      "面条;牛肉片;白萝卜"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_413.jpg",
+    "dish": "大盘鸡",
+    "price": 18,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土鸡;土豆;青椒"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_414.jpg",
+    "dish": "馕包肉",
+    "price": 15,
+    "tags": [
+      "酱香",
+      "馕"
+    ],
+    "ingredients": [
+      "羊肉;馕;洋葱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_415.jpg",
+    "dish": "烤羊肉串",
+    "price": 2,
+    "tags": [
+      "孜然",
+      "炭烤"
+    ],
+    "ingredients": [
+      "羊肉;孜然;辣椒面"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "sh_416.jpg",
+    "dish": "上海生煎",
+    "price": 2,
+    "tags": [
+      "酥脆",
+      "肉汁"
+    ],
+    "ingredients": [
+      "猪肉;面粉;芝麻"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_417.jpg",
+    "dish": "蟹壳黄",
+    "price": 3,
+    "tags": [
+      "酥脆",
+      "芝麻"
+    ],
+    "ingredients": [
+      "面粉;猪油;芝麻"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_418.jpg",
+    "dish": "南翔小笼",
+    "price": 2,
+    "tags": [
+      "薄皮",
+      "汤鲜"
+    ],
+    "ingredients": [
+      "猪肉;皮冻;面粉"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_419.jpg",
+    "dish": "四喜烤麸",
+    "price": 5,
+    "tags": [
+      "甜咸",
+      "烤麸"
+    ],
+    "ingredients": [
+      "烤麸;木耳;花生"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_420.jpg",
+    "dish": "百叶包肉",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "百叶"
+    ],
+    "ingredients": [
+      "猪肉;百叶;高汤"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "bj_421.jpg",
+    "dish": "天津煎饼果子",
+    "price": 6,
+    "tags": [
+      "酥脆",
+      "蛋香"
+    ],
+    "ingredients": [
+      "绿豆面;鸡蛋;油条"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_422.jpg",
+    "dish": "狗不理包子",
+    "price": 3,
+    "tags": [
+      "鲜咸",
+      "灌汤"
+    ],
+    "ingredients": [
+      "猪肉;面粉;皮冻"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_423.jpg",
+    "dish": "耳朵眼炸糕",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "油炸"
+    ],
+    "ingredients": [
+      "糯米粉;红豆;糖"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_424.jpg",
+    "dish": "十八街麻花",
+    "price": 5,
+    "tags": [
+      "酥脆",
+      "五香"
+    ],
+    "ingredients": [
+      "面粉;芝麻;糖"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_425.jpg",
+    "dish": "锅巴菜",
+    "price": 5,
+    "tags": [
+      "卤香",
+      "锅巴"
+    ],
+    "ingredients": [
+      "锅巴;卤汁;香菜"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "sh_426.jpg",
+    "dish": "老上海焖蹄面",
+    "price": 12,
+    "tags": [
+      "浓汤",
+      "焖蹄"
+    ],
+    "ingredients": [
+      "面条;猪蹄;青菜"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_427.jpg",
+    "dish": "素蟹粉包",
+    "price": 3,
+    "tags": [
+      "素香",
+      "蟹味"
+    ],
+    "ingredients": [
+      "土豆;胡萝卜;醋"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_428.jpg",
+    "dish": "双酿团",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "双馅"
+    ],
+    "ingredients": [
+      "糯米;豆沙;芝麻"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_429.jpg",
+    "dish": "擂沙圆",
+    "price": 5,
+    "tags": [
+      "豆香",
+      "圆子"
+    ],
+    "ingredients": [
+      "糯米圆子;红豆;糖"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "sh_430.jpg",
+    "dish": "排骨年糕",
+    "price": 8,
+    "tags": [
+      "咸甜",
+      "年糕"
+    ],
+    "ingredients": [
+      "排骨;年糕;糖"
+    ],
+    "note": "上海大学"
+  },
+  {
+    "file": "bj_431.jpg",
+    "dish": "保定驴肉火烧",
+    "price": 7,
+    "tags": [
+      "酥脆",
+      "驴肉"
+    ],
+    "ingredients": [
+      "火烧;驴肉;香菜"
+    ],
+    "note": "北京农大"
+  },
+  {
+    "file": "bj_432.jpg",
+    "dish": "石家庄宫面",
+    "price": 8,
+    "tags": [
+      "清汤",
+      "宫面"
+    ],
+    "ingredients": [
+      "宫面;鸡汤;香菇"
+    ],
+    "note": "北京农大"
+  },
+  {
+    "file": "bj_433.jpg",
+    "dish": "正定马家卤鸡",
+    "price": 15,
+    "tags": [
+      "卤香",
+      "脱骨"
+    ],
+    "ingredients": [
+      "土鸡;老卤;香料"
+    ],
+    "note": "北京农大"
+  },
+  {
+    "file": "bj_434.jpg",
+    "dish": "金凤扒鸡",
+    "price": 12,
+    "tags": [
+      "五香",
+      "扒制"
+    ],
+    "ingredients": [
+      "土鸡;五香粉;糖"
+    ],
+    "note": "北京农大"
+  },
+  {
+    "file": "bj_435.jpg",
+    "dish": "棋子烧饼",
+    "price": 3,
+    "tags": [
+      "酥脆",
+      "肉香"
+    ],
+    "ingredients": [
+      "面粉;猪肉;芝麻"
+    ],
+    "note": "北京农大"
+  },
+  {
+    "file": "sh_436.jpg",
+    "dish": "河北驴打滚",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "豆面"
+    ],
+    "ingredients": [
+      "糯米;红豆;黄豆面"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_437.jpg",
+    "dish": "唐山蜂蜜麻糖",
+    "price": 5,
+    "tags": [
+      "蜂蜜",
+      "酥脆"
+    ],
+    "ingredients": [
+      "面粉;蜂蜜;芝麻"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_438.jpg",
+    "dish": "石家庄回民扒鸡",
+    "price": 13,
+    "tags": [
+      "五香",
+      "扒鸡"
+    ],
+    "ingredients": [
+      "土鸡;香料;糖"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_439.jpg",
+    "dish": "保定面酱",
+    "price": 2,
+    "tags": [
+      "酱香",
+      "蘸料"
+    ],
+    "ingredients": [
+      "面粉;黄豆;盐"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_440.jpg",
+    "dish": "邯郸拽面",
+    "price": 7,
+    "tags": [
+      "筋道",
+      "肉卤"
+    ],
+    "ingredients": [
+      "面条;牛肉卤;香菜"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "bj_441.jpg",
+    "dish": "山西刀削面",
+    "price": 8,
+    "tags": [
+      "筋道",
+      "肉臊"
+    ],
+    "ingredients": [
+      "刀削面;猪肉臊;香菜"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_442.jpg",
+    "dish": "太原头脑",
+    "price": 10,
+    "tags": [
+      "药膳",
+      "浓汤"
+    ],
+    "ingredients": [
+      "羊肉;山药;黄酒"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_443.jpg",
+    "dish": "平遥牛肉",
+    "price": 15,
+    "tags": [
+      "咸鲜",
+      "牛肉"
+    ],
+    "ingredients": [
+      "牛肉;盐;香料"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_444.jpg",
+    "dish": "过油肉",
+    "price": 12,
+    "tags": [
+      "滑嫩",
+      "过油"
+    ],
+    "ingredients": [
+      "猪肉;木耳;蒜"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_445.jpg",
+    "dish": "莜面栲栳栳",
+    "price": 8,
+    "tags": [
+      "粗粮",
+      "蘸汁"
+    ],
+    "ingredients": [
+      "莜面;番茄汁;蒜"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "sh_446.jpg",
+    "dish": "山西猫耳朵",
+    "price": 7,
+    "tags": [
+      "筋道",
+      "炒制"
+    ],
+    "ingredients": [
+      "猫耳朵;鸡蛋;番茄"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_447.jpg",
+    "dish": "运城大盘鸡",
+    "price": 16,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土鸡;土豆;宽面"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_448.jpg",
+    "dish": "阳泉压饼",
+    "price": 4,
+    "tags": [
+      "酥脆",
+      "压烤"
+    ],
+    "ingredients": [
+      "面粉;鸡蛋;芝麻"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_449.jpg",
+    "dish": "定州焖子",
+    "price": 6,
+    "tags": [
+      "五香",
+      "肉糕"
+    ],
+    "ingredients": [
+      "猪肉;淀粉;香料"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_450.jpg",
+    "dish": "吕梁碗托",
+    "price": 5,
+    "tags": [
+      "酸辣",
+      "碗托"
+    ],
+    "ingredients": [
+      "荞麦;醋;辣椒"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "bj_451.jpg",
+    "dish": "宁夏手抓羊肉",
+    "price": 18,
+    "tags": [
+      "原味",
+      "手抓"
+    ],
+    "ingredients": [
+      "滩羊肉;花椒盐;洋葱"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_452.jpg",
+    "dish": "银川羊肉泡馍",
+    "price": 14,
+    "tags": [
+      "浓汤",
+      "泡馍"
+    ],
+    "ingredients": [
+      "羊肉;馍;粉丝"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_453.jpg",
+    "dish": "吴忠炒糊饽",
+    "price": 8,
+    "tags": [
+      "炒糊",
+      "饽子"
+    ],
+    "ingredients": [
+      "面粉;羊肉;辣椒"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_454.jpg",
+    "dish": "固原烧鸡",
+    "price": 12,
+    "tags": [
+      "五香",
+      "烧鸡"
+    ],
+    "ingredients": [
+      "土鸡;香料;糖"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_455.jpg",
+    "dish": "中卫蒿子面",
+    "price": 7,
+    "tags": [
+      "蒿子",
+      "面条"
+    ],
+    "ingredients": [
+      "面粉;蒿子;羊肉"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "sh_456.jpg",
+    "dish": "青海手抓羊肉",
+    "price": 19,
+    "tags": [
+      "原味",
+      "手抓"
+    ],
+    "ingredients": [
+      "滩羊肉;花椒盐;洋葱"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_457.jpg",
+    "dish": "西宁羊肉泡馍",
+    "price": 15,
+    "tags": [
+      "浓汤",
+      "泡馍"
+    ],
+    "ingredients": [
+      "羊肉;馍;粉丝"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_458.jpg",
+    "dish": "青海土火锅",
+    "price": 22,
+    "tags": [
+      "麻辣",
+      "火锅"
+    ],
+    "ingredients": [
+      "牛肉;丸子;蔬菜"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_459.jpg",
+    "dish": "狗浇尿油饼",
+    "price": 5,
+    "tags": [
+      "葱香",
+      "煎制"
+    ],
+    "ingredients": [
+      "面粉;葱花;菜籽油"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_460.jpg",
+    "dish": "甜醅",
+    "price": 3,
+    "tags": [
+      "甜酒",
+      "发酵"
+    ],
+    "ingredients": [
+      "青稞;酒曲;水"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "bj_461.jpg",
+    "dish": "新疆大盘鸡",
+    "price": 20,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土鸡;土豆;宽面"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_462.jpg",
+    "dish": "乌鲁木齐手抓饭",
+    "price": 16,
+    "tags": [
+      "羊油",
+      "抓饭"
+    ],
+    "ingredients": [
+      "羊肉;胡萝卜;米饭"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_463.jpg",
+    "dish": "烤羊肉串",
+    "price": 2,
+    "tags": [
+      "孜然",
+      "炭烤"
+    ],
+    "ingredients": [
+      "羊肉;孜然;辣椒"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_464.jpg",
+    "dish": "馕包肉",
+    "price": 15,
+    "tags": [
+      "酱香",
+      "馕"
+    ],
+    "ingredients": [
+      "羊肉;馕;洋葱"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "bj_465.jpg",
+    "dish": "新疆酸奶",
+    "price": 4,
+    "tags": [
+      "酸甜",
+      "发酵"
+    ],
+    "ingredients": [
+      "牛奶;菌种;糖"
+    ],
+    "note": "北京林大"
+  },
+  {
+    "file": "sh_466.jpg",
+    "dish": "东北地三鲜",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "家常"
+    ],
+    "ingredients": [
+      "茄子;土豆;青椒"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_467.jpg",
+    "dish": "哈尔滨锅包肉",
+    "price": 12,
+    "tags": [
+      "酸甜",
+      "酥脆"
+    ],
+    "ingredients": [
+      "猪里脊;糖醋;胡萝卜"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_468.jpg",
+    "dish": "齐齐哈尔烤肉",
+    "price": 14,
+    "tags": [
+      "孜然",
+      "炭烤"
+    ],
+    "ingredients": [
+      "牛肉;孜然;洋葱"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_469.jpg",
+    "dish": "大庆扒鸡",
+    "price": 11,
+    "tags": [
+      "五香",
+      "扒鸡"
+    ],
+    "ingredients": [
+      "土鸡;香料;糖"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "sh_470.jpg",
+    "dish": "佳木斯拌面",
+    "price": 9,
+    "tags": [
+      "酱香",
+      "拌面"
+    ],
+    "ingredients": [
+      "面条;肉酱;黄瓜"
+    ],
+    "note": "上海海洋大学"
+  },
+  {
+    "file": "bj_471.jpg",
+    "dish": "湖北热干面",
+    "price": 8,
+    "tags": [
+      "麻酱",
+      "干拌"
+    ],
+    "ingredients": [
+      "碱面;芝麻酱;萝卜丁"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_472.jpg",
+    "dish": "武汉豆皮",
+    "price": 4,
+    "tags": [
+      "豆皮",
+      "糯米"
+    ],
+    "ingredients": [
+      "糯米;鸡蛋;豆皮"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_473.jpg",
+    "dish": "武昌鱼",
+    "price": 16,
+    "tags": [
+      "清蒸",
+      "武昌鱼"
+    ],
+    "ingredients": [
+      "武昌鱼;蒸鱼豉油;葱"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_474.jpg",
+    "dish": "荆州鱼糕",
+    "price": 10,
+    "tags": [
+      "嫩滑",
+      "鱼糜"
+    ],
+    "ingredients": [
+      "草鱼糜;蛋清;淀粉"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "bj_475.jpg",
+    "dish": "洪湖鸭焖莲藕",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "藕香"
+    ],
+    "ingredients": [
+      "土鸭;莲藕;生抽"
+    ],
+    "note": "北京科大"
+  },
+  {
+    "file": "sh_476.jpg",
+    "dish": "湖南剁椒鱼头",
+    "price": 19,
+    "tags": [
+      "剁椒",
+      "鱼头"
+    ],
+    "ingredients": [
+      "胖头鱼;剁椒;蒸制"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_477.jpg",
+    "dish": "口味虾",
+    "price": 16,
+    "tags": [
+      "口味",
+      "麻辣"
+    ],
+    "ingredients": [
+      "小龙虾;剁椒;花椒"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_478.jpg",
+    "dish": "长沙糖油粑粑",
+    "price": 4,
+    "tags": [
+      "甜糯",
+      "油炸"
+    ],
+    "ingredients": [
+      "糯米粉;红糖;油"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_479.jpg",
+    "dish": "湖南酱板鸭",
+    "price": 15,
+    "tags": [
+      "酱香",
+      "板鸭"
+    ],
+    "ingredients": [
+      "麻鸭;酱卤;辣椒"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "sh_480.jpg",
+    "dish": "刮凉粉",
+    "price": 5,
+    "tags": [
+      "酸辣",
+      "爽滑"
+    ],
+    "ingredients": [
+      "凉粉;醋;辣椒"
+    ],
+    "note": "上海师大"
+  },
+  {
+    "file": "bj_481.jpg",
+    "dish": "江西瓦罐汤",
+    "price": 8,
+    "tags": [
+      "瓦罐",
+      "炖汤"
+    ],
+    "ingredients": [
+      "土鸡;山药;枸杞"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_482.jpg",
+    "dish": "南昌拌粉",
+    "price": 7,
+    "tags": [
+      "酸辣",
+      "拌粉"
+    ],
+    "ingredients": [
+      "米粉;醋;辣椒"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_483.jpg",
+    "dish": "鄱阳湖胖鱼头",
+    "price": 17,
+    "tags": [
+      "鲜辣",
+      "鱼头"
+    ],
+    "ingredients": [
+      "胖头鱼;辣椒;蒸制"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_484.jpg",
+    "dish": "景德镇冷粉",
+    "price": 6,
+    "tags": [
+      "冷吃",
+      "酸辣"
+    ],
+    "ingredients": [
+      "米粉;醋;辣椒"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "bj_485.jpg",
+    "dish": "九江茶饼",
+    "price": 3,
+    "tags": [
+      "茶香",
+      "酥脆"
+    ],
+    "ingredients": [
+      "面粉;茶油;芝麻"
+    ],
+    "note": "北京理工"
+  },
+  {
+    "file": "sh_486.jpg",
+    "dish": "四川回锅肉",
+    "price": 12,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_487.jpg",
+    "dish": "成都麻婆豆腐",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "嫩豆"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_488.jpg",
+    "dish": "重庆水煮鱼",
+    "price": 16,
+    "tags": [
+      "麻辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "草鱼;豆芽;干辣椒"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_489.jpg",
+    "dish": "乐山钵钵鸡",
+    "price": 10,
+    "tags": [
+      "麻辣",
+      "冷串"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;辣椒油"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "sh_490.jpg",
+    "dish": "宜宾燃面",
+    "price": 7,
+    "tags": [
+      "干香",
+      "燃面"
+    ],
+    "ingredients": [
+      "面条;芽菜;花生"
+    ],
+    "note": "上海理工"
+  },
+  {
+    "file": "bj_491.jpg",
+    "dish": "云南过桥米线",
+    "price": 10,
+    "tags": [
+      "清汤",
+      "米线"
+    ],
+    "ingredients": [
+      "米线;土鸡;韭菜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_492.jpg",
+    "dish": "汽锅鸡",
+    "price": 16,
+    "tags": [
+      "清汤",
+      "汽锅"
+    ],
+    "ingredients": [
+      "土鸡;汽锅;枸杞"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_493.jpg",
+    "dish": "宣威火腿",
+    "price": 20,
+    "tags": [
+      "咸香",
+      "火腿"
+    ],
+    "ingredients": [
+      "宣威火腿;蜂蜜;白酒"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_494.jpg",
+    "dish": "云南饵块",
+    "price": 6,
+    "tags": [
+      "软糯",
+      "饵块"
+    ],
+    "ingredients": [
+      "饵块;肉末;酸菜"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "bj_495.jpg",
+    "dish": "野生菌火锅",
+    "price": 25,
+    "tags": [
+      "菌香",
+      "火锅"
+    ],
+    "ingredients": [
+      "鸡枞;牛肝菌;高汤"
+    ],
+    "note": "北京交大二食堂"
+  },
+  {
+    "file": "sh_496.jpg",
+    "dish": "海南文昌鸡",
+    "price": 22,
+    "tags": [
+      "清淡",
+      "原味"
+    ],
+    "ingredients": [
+      "文昌鸡;生姜;葱"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_497.jpg",
+    "dish": "加积鸭",
+    "price": 20,
+    "tags": [
+      "咸鲜",
+      "肥美"
+    ],
+    "ingredients": [
+      "加积鸭;盐;生姜"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_498.jpg",
+    "dish": "东山羊",
+    "price": 18,
+    "tags": [
+      "无膻",
+      "羊肉"
+    ],
+    "ingredients": [
+      "东山羊;清汤;枸杞"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_499.jpg",
+    "dish": "和乐蟹",
+    "price": 16,
+    "tags": [
+      "鲜甜",
+      "蟹肉"
+    ],
+    "ingredients": [
+      "和乐蟹;蒸制;姜醋"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "sh_500.jpg",
+    "dish": "海南粉",
+    "price": 8,
+    "tags": [
+      "酸辣",
+      "米粉"
+    ],
+    "ingredients": [
+      "海南粉;酸菜;牛肉干"
+    ],
+    "note": "上海交大闵行"
+  },
+  {
+    "file": "bj_501.jpg",
+    "dish": "北大燕南梅菜扣肉",
+    "price": 16,
+    "tags": [
+      "咸鲜",
+      "梅菜"
+    ],
+    "ingredients": [
+      "五花肉;梅干菜;生抽"
+    ],
+    "note": "北大燕南美食厅"
+  },
+  {
+    "file": "bj_502.jpg",
+    "dish": "清华听涛菌菇炖鸡",
+    "price": 18,
+    "tags": [
+      "清鲜",
+      "菌香"
+    ],
+    "ingredients": [
+      "土鸡;榛蘑;枸杞"
+    ],
+    "note": "清华听涛园"
+  },
+  {
+    "file": "bj_503.jpg",
+    "dish": "复旦北区香辣虾",
+    "price": 22,
+    "tags": [
+      "香辣",
+      "虾肉"
+    ],
+    "ingredients": [
+      "基围虾;干辣椒;花椒"
+    ],
+    "note": "复旦北区食堂"
+  },
+  {
+    "file": "bj_504.jpg",
+    "dish": "浙大紫金港糖醋排骨",
+    "price": 14,
+    "tags": [
+      "酸甜",
+      "排骨"
+    ],
+    "ingredients": [
+      "猪肋排;糖;醋"
+    ],
+    "note": "浙大紫金港食堂"
+  },
+  {
+    "file": "bj_505.jpg",
+    "dish": "南大六食堂咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "bj_506.jpg",
+    "dish": "武大桂园香煎大白鱼",
+    "price": 20,
+    "tags": [
+      "咸鲜",
+      "煎鱼"
+    ],
+    "ingredients": [
+      "大白鱼;盐;生姜"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "bj_507.jpg",
+    "dish": "中山大学松涛园白切文昌鸡",
+    "price": 22,
+    "tags": [
+      "清淡",
+      "原味"
+    ],
+    "ingredients": [
+      "文昌鸡;生姜;葱"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "bj_508.jpg",
+    "dish": "川大江安校区麻婆豆腐",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "嫩豆"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "bj_509.jpg",
+    "dish": "西交康桥苑干锅花菜",
+    "price": 12,
+    "tags": [
+      "香辣",
+      "干锅"
+    ],
+    "ingredients": [
+      "花菜;五花肉;干辣椒"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "bj_510.jpg",
+    "dish": "哈工大一校区东北大拉皮",
+    "price": 7,
+    "tags": [
+      "酸辣",
+      "爽滑"
+    ],
+    "ingredients": [
+      "拉皮;黄瓜;醋"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "bj_511.jpg",
+    "dish": "北大学五香菇滑鸡",
+    "price": 10,
+    "tags": [
+      "咸鲜",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "鸡肉;香菇;生姜"
+    ],
+    "note": "北大学五食堂"
+  },
+  {
+    "file": "bj_512.jpg",
+    "dish": "清华澜园大盘鸡",
+    "price": 19,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土鸡;土豆;宽面"
+    ],
+    "note": "清华澜园"
+  },
+  {
+    "file": "bj_513.jpg",
+    "dish": "复旦南区干煎带鱼",
+    "price": 13,
+    "tags": [
+      "咸鲜",
+      "煎制"
+    ],
+    "ingredients": [
+      "带鱼;盐;生姜"
+    ],
+    "note": "复旦南区"
+  },
+  {
+    "file": "bj_514.jpg",
+    "dish": "浙大玉泉校区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "浙大玉泉"
+  },
+  {
+    "file": "bj_515.jpg",
+    "dish": "南大九食堂盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "bj_516.jpg",
+    "dish": "武大工学部烤鸡翅",
+    "price": 12,
+    "tags": [
+      "蜜汁",
+      "烤制"
+    ],
+    "ingredients": [
+      "鸡翅;蜂蜜;生抽"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "bj_517.jpg",
+    "dish": "中山大学学一酸辣土豆丝",
+    "price": 5,
+    "tags": [
+      "酸辣",
+      "脆爽"
+    ],
+    "ingredients": [
+      "土豆;醋;青椒"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "bj_518.jpg",
+    "dish": "川大望江校区回锅肉",
+    "price": 12,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "bj_519.jpg",
+    "dish": "西交创新港羊肉泡馍",
+    "price": 15,
+    "tags": [
+      "浓汤",
+      "泡馍"
+    ],
+    "ingredients": [
+      "羊肉;馍;粉丝"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_520.jpg",
+    "dish": "哈工大天香园锅包肉",
+    "price": 13,
+    "tags": [
+      "酸甜",
+      "酥脆"
+    ],
+    "ingredients": [
+      "猪里脊;糖醋;胡萝卜"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_521.jpg",
+    "dish": "北大畅春园京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "北大畅春园"
+  },
+  {
+    "file": "bj_522.jpg",
+    "dish": "清华观畴园铁板牛柳",
+    "price": 17,
+    "tags": [
+      "黑椒",
+      "嫩肉"
+    ],
+    "ingredients": [
+      "牛柳;黑胡椒;洋葱"
+    ],
+    "note": "清华观畴园"
+  },
+  {
+    "file": "bj_523.jpg",
+    "dish": "复旦北区酸汤肥牛",
+    "price": 18,
+    "tags": [
+      "酸辣",
+      "金针菇"
+    ],
+    "ingredients": [
+      "肥牛;酸汤;金针菇"
+    ],
+    "note": "复旦北区"
+  },
+  {
+    "file": "bj_524.jpg",
+    "dish": "浙大紫金港油爆虾",
+    "price": 20,
+    "tags": [
+      "油爆",
+      "甜鲜"
+    ],
+    "ingredients": [
+      "河虾;糖;生抽"
+    ],
+    "note": "浙大紫金港"
+  },
+  {
+    "file": "bj_525.jpg",
+    "dish": "南大六食堂红烧甲鱼",
+    "price": 28,
+    "tags": [
+      "酱香",
+      "甲鱼"
+    ],
+    "ingredients": [
+      "甲鱼;酱油;冰糖"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "bj_526.jpg",
+    "dish": "武大信息学部蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "武大信部"
+  },
+  {
+    "file": "bj_527.jpg",
+    "dish": "中山大学松涛园烧鹅",
+    "price": 24,
+    "tags": [
+      "酱香",
+      "烧鹅"
+    ],
+    "ingredients": [
+      "鹅;五香粉;糖"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "bj_528.jpg",
+    "dish": "川大江安水煮肉片",
+    "price": 15,
+    "tags": [
+      "麻辣",
+      "肉片"
+    ],
+    "ingredients": [
+      "猪肉;豆芽;干辣椒"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "bj_529.jpg",
+    "dish": "西交康桥苑孜然羊排",
+    "price": 19,
+    "tags": [
+      "孜然",
+      "羊排"
+    ],
+    "ingredients": [
+      "羊排;孜然;洋葱"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "bj_530.jpg",
+    "dish": "哈工大天香园东北地三鲜",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "家常"
+    ],
+    "ingredients": [
+      "茄子;土豆;青椒"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_531.jpg",
+    "dish": "北大燕南麻酱凉面",
+    "price": 9,
+    "tags": [
+      "麻酱",
+      "清爽"
+    ],
+    "ingredients": [
+      "面条;芝麻酱;黄瓜"
+    ],
+    "note": "北大燕南园"
+  },
+  {
+    "file": "bj_532.jpg",
+    "dish": "清华听涛蒜蓉粉丝蒸扇贝",
+    "price": 18,
+    "tags": [
+      "蒜香",
+      "海鲜"
+    ],
+    "ingredients": [
+      "扇贝;粉丝;大蒜"
+    ],
+    "note": "清华听涛"
+  },
+  {
+    "file": "bj_533.jpg",
+    "dish": "复旦南区黑椒牛柳",
+    "price": 13,
+    "tags": [
+      "黑椒",
+      "嫩肉"
+    ],
+    "ingredients": [
+      "牛柳;黑胡椒;洋葱"
+    ],
+    "note": "复旦南区"
+  },
+  {
+    "file": "bj_534.jpg",
+    "dish": "浙大玉泉校区宋嫂鱼羹",
+    "price": 14,
+    "tags": [
+      "酸辣",
+      "鱼羹"
+    ],
+    "ingredients": [
+      "鳜鱼;醋;胡椒"
+    ],
+    "note": "浙大玉泉"
+  },
+  {
+    "file": "bj_535.jpg",
+    "dish": "南大十食堂干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "bj_536.jpg",
+    "dish": "武大梅园小炒肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "猪肉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "bj_537.jpg",
+    "dish": "中山大学东校酸辣蕨根粉",
+    "price": 6,
+    "tags": [
+      "酸辣",
+      "爽滑"
+    ],
+    "ingredients": [
+      "蕨根粉;醋;辣椒"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "bj_538.jpg",
+    "dish": "川大望江校区乐山钵钵鸡",
+    "price": 10,
+    "tags": [
+      "麻辣",
+      "冷串"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;辣椒油"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "bj_539.jpg",
+    "dish": "西交创新港孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_540.jpg",
+    "dish": "哈工大天香园糖醋里脊",
+    "price": 10,
+    "tags": [
+      "酸甜",
+      "酥脆"
+    ],
+    "ingredients": [
+      "猪里脊;番茄酱;白醋"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_541.jpg",
+    "dish": "北大学五香菇油菜",
+    "price": 6,
+    "tags": [
+      "清淡",
+      "香菇"
+    ],
+    "ingredients": [
+      "香菇;油菜;盐"
+    ],
+    "note": "北大学五"
+  },
+  {
+    "file": "bj_542.jpg",
+    "dish": "清华澜园咖喱鸡丁",
+    "price": 10,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "鸡肉;土豆;洋葱"
+    ],
+    "note": "清华澜园"
+  },
+  {
+    "file": "bj_543.jpg",
+    "dish": "复旦旦苑干煎藕盒",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "煎制"
+    ],
+    "ingredients": [
+      "藕;猪肉;面粉"
+    ],
+    "note": "复旦旦苑"
+  },
+  {
+    "file": "bj_544.jpg",
+    "dish": "浙大紫荆港蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "浙大紫荆港"
+  },
+  {
+    "file": "bj_545.jpg",
+    "dish": "南大九食堂京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "bj_546.jpg",
+    "dish": "武大工学部鱼香肉丝",
+    "price": 9,
+    "tags": [
+      "微辣",
+      "酸辣"
+    ],
+    "ingredients": [
+      "猪肉;木耳;胡萝卜"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "bj_547.jpg",
+    "dish": "中山大学学一宫保鸡丁",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "花生"
+    ],
+    "ingredients": [
+      "鸡肉;花生;干辣椒"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "bj_548.jpg",
+    "dish": "川大望江校区水煮牛肉",
+    "price": 16,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "牛肉;豆芽;莴笋"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "bj_549.jpg",
+    "dish": "西交创新港红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_550.jpg",
+    "dish": "哈工大天香园酸辣土豆丝",
+    "price": 5,
+    "tags": [
+      "酸辣",
+      "脆爽"
+    ],
+    "ingredients": [
+      "土豆;醋;青椒"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_551.jpg",
+    "dish": "北大畅春园锅塌豆腐",
+    "price": 8,
+    "tags": [
+      "咸鲜",
+      "软嫩"
+    ],
+    "ingredients": [
+      "豆腐;鸡蛋;高汤"
+    ],
+    "note": "北大畅春园"
+  },
+  {
+    "file": "bj_552.jpg",
+    "dish": "清华观畴园小炒口蘑",
+    "price": 10,
+    "tags": [
+      "清香",
+      "口蘑"
+    ],
+    "ingredients": [
+      "口蘑;青椒;盐"
+    ],
+    "note": "清华观畴园"
+  },
+  {
+    "file": "bj_553.jpg",
+    "dish": "复旦北区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "复旦北区"
+  },
+  {
+    "file": "bj_554.jpg",
+    "dish": "浙大玉泉校区西湖醋鱼",
+    "price": 16,
+    "tags": [
+      "酸甜",
+      "草鱼"
+    ],
+    "ingredients": [
+      "草鱼;醋;糖"
+    ],
+    "note": "浙大玉泉"
+  },
+  {
+    "file": "bj_555.jpg",
+    "dish": "南大十食堂蒜蓉菠菜",
+    "price": 4,
+    "tags": [
+      "蒜香",
+      "绿叶"
+    ],
+    "ingredients": [
+      "菠菜;大蒜;盐"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "bj_556.jpg",
+    "dish": "武大梅园干锅花菜",
+    "price": 8,
+    "tags": [
+      "香辣",
+      "干锅"
+    ],
+    "ingredients": [
+      "花菜;五花肉;干辣椒"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "bj_557.jpg",
+    "dish": "中山大学东校上汤菠菜",
+    "price": 5,
+    "tags": [
+      "鲜咸",
+      "汤菜"
+    ],
+    "ingredients": [
+      "菠菜;皮蛋;咸蛋"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "bj_558.jpg",
+    "dish": "川大望江校区毛血旺",
+    "price": 18,
+    "tags": [
+      "麻辣",
+      "血旺"
+    ],
+    "ingredients": [
+      "鸭血;毛肚;黄喉"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "bj_559.jpg",
+    "dish": "西交创新港酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_560.jpg",
+    "dish": "哈工大天香园东北乱炖",
+    "price": 10,
+    "tags": [
+      "咸鲜",
+      "混搭"
+    ],
+    "ingredients": [
+      "排骨;玉米;豆角"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_561.jpg",
+    "dish": "北大燕南蒜蓉开边虾",
+    "price": 14,
+    "tags": [
+      "蒜香",
+      "蒸制"
+    ],
+    "ingredients": [
+      "基围虾;大蒜;粉丝"
+    ],
+    "note": "北大燕南"
+  },
+  {
+    "file": "bj_562.jpg",
+    "dish": "清华听涛鸡汁百叶包",
+    "price": 8,
+    "tags": [
+      "鲜咸",
+      "鸡汁"
+    ],
+    "ingredients": [
+      "猪肉;百叶;鸡汁"
+    ],
+    "note": "清华听涛"
+  },
+  {
+    "file": "bj_563.jpg",
+    "dish": "复旦南区荠菜豆腐羹",
+    "price": 6,
+    "tags": [
+      "清香",
+      "荠菜"
+    ],
+    "ingredients": [
+      "荠菜;嫩豆腐;高汤"
+    ],
+    "note": "复旦南区"
+  },
+  {
+    "file": "bj_564.jpg",
+    "dish": "浙大紫荆港油焖春笋",
+    "price": 9,
+    "tags": [
+      "鲜咸",
+      "春笋"
+    ],
+    "ingredients": [
+      "春笋;酱油;糖"
+    ],
+    "note": "浙大紫荆港"
+  },
+  {
+    "file": "bj_565.jpg",
+    "dish": "南大六食堂葱烤河鲫鱼",
+    "price": 13,
+    "tags": [
+      "葱香",
+      "河鲜"
+    ],
+    "ingredients": [
+      "河鲫鱼;大葱;生抽"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "bj_566.jpg",
+    "dish": "武大桂园辣炒花蛤",
+    "price": 12,
+    "tags": [
+      "鲜辣",
+      "花蛤"
+    ],
+    "ingredients": [
+      "花蛤;干辣椒;蒜末"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "bj_567.jpg",
+    "dish": "中山大学松涛园酱骨头",
+    "price": 19,
+    "tags": [
+      "酱香",
+      "浓肉"
+    ],
+    "ingredients": [
+      "猪脊骨;黄豆酱;八角"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "bj_568.jpg",
+    "dish": "川大江安校区酸汤肥牛",
+    "price": 15,
+    "tags": [
+      "酸辣",
+      "金针菇"
+    ],
+    "ingredients": [
+      "肥牛;酸汤;金针菇"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "bj_569.jpg",
+    "dish": "西交康桥苑小炒黄牛肉",
+    "price": 16,
+    "tags": [
+      "香辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "黄牛肉;香菜;小米辣"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "bj_570.jpg",
+    "dish": "哈工大天香园干煸四季豆",
+    "price": 10,
+    "tags": [
+      "干辣",
+      "脆嫩"
+    ],
+    "ingredients": [
+      "四季豆;肉末;干辣椒"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_571.jpg",
+    "dish": "北大学五酱爆鸡丁",
+    "price": 12,
+    "tags": [
+      "酱香",
+      "微甜"
+    ],
+    "ingredients": [
+      "鸡肉;黄酱;黄瓜"
+    ],
+    "note": "北大学五"
+  },
+  {
+    "file": "bj_572.jpg",
+    "dish": "清华澜园口水杏鲍菇",
+    "price": 7,
+    "tags": [
+      "麻辣",
+      "杏鲍菇"
+    ],
+    "ingredients": [
+      "杏鲍菇;花椒;辣椒油"
+    ],
+    "note": "清华澜园"
+  },
+  {
+    "file": "bj_573.jpg",
+    "dish": "复旦旦苑铁板茄子",
+    "price": 9,
+    "tags": [
+      "酱香",
+      "茄子"
+    ],
+    "ingredients": [
+      "茄子;肉末;铁板"
+    ],
+    "note": "复旦旦苑"
+  },
+  {
+    "file": "bj_574.jpg",
+    "dish": "浙大玉泉校区干锅土豆片",
+    "price": 8,
+    "tags": [
+      "香辣",
+      "土豆"
+    ],
+    "ingredients": [
+      "土豆;五花肉;干辣椒"
+    ],
+    "note": "浙大玉泉"
+  },
+  {
+    "file": "bj_575.jpg",
+    "dish": "南大九食堂孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "bj_576.jpg",
+    "dish": "武大工学部黑椒牛柳粒",
+    "price": 16,
+    "tags": [
+      "黑椒",
+      "嫩牛"
+    ],
+    "ingredients": [
+      "牛柳;黑胡椒;洋葱"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "bj_577.jpg",
+    "dish": "中山大学学一口水鸡",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "凉菜"
+    ],
+    "ingredients": [
+      "鸡腿;花椒;黄瓜"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "bj_578.jpg",
+    "dish": "川大望江校区回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "bj_579.jpg",
+    "dish": "西交创新港蒜蓉粉丝蒸扇贝",
+    "price": 18,
+    "tags": [
+      "蒜香",
+      "海鲜"
+    ],
+    "ingredients": [
+      "扇贝;粉丝;大蒜"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_580.jpg",
+    "dish": "哈工大天香园干煎小黄鱼",
+    "price": 12,
+    "tags": [
+      "干香",
+      "煎制"
+    ],
+    "ingredients": [
+      "小黄鱼;盐;生姜"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_581.jpg",
+    "dish": "北大畅春园酱焖茄子",
+    "price": 8,
+    "tags": [
+      "酱香",
+      "软烂"
+    ],
+    "ingredients": [
+      "茄子;黄豆酱;肉末"
+    ],
+    "note": "北大畅春园"
+  },
+  {
+    "file": "bj_582.jpg",
+    "dish": "清华观畴园小炒黄牛肉",
+    "price": 16,
+    "tags": [
+      "香辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "黄牛肉;香菜;小米辣"
+    ],
+    "note": "清华观畴园"
+  },
+  {
+    "file": "bj_583.jpg",
+    "dish": "复旦北区酸汤肥牛",
+    "price": 18,
+    "tags": [
+      "酸辣",
+      "金针菇"
+    ],
+    "ingredients": [
+      "肥牛;酸汤;金针菇"
+    ],
+    "note": "复旦北区"
+  },
+  {
+    "file": "bj_584.jpg",
+    "dish": "浙大紫荆港蟹粉狮子头",
+    "price": 14,
+    "tags": [
+      "蟹香",
+      "肉圆"
+    ],
+    "ingredients": [
+      "猪肉;蟹粉;高汤"
+    ],
+    "note": "浙大紫荆港"
+  },
+  {
+    "file": "bj_585.jpg",
+    "dish": "南大十食堂本帮鳝丝",
+    "price": 18,
+    "tags": [
+      "鲜咸",
+      "鳝鱼"
+    ],
+    "ingredients": [
+      "鳝鱼;韭菜;生抽"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "bj_586.jpg",
+    "dish": "武大梅园油爆河虾",
+    "price": 16,
+    "tags": [
+      "油爆",
+      "河虾"
+    ],
+    "ingredients": [
+      "河虾;糖;生抽"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "bj_587.jpg",
+    "dish": "中山大学东校红烧素鸡",
+    "price": 6,
+    "tags": [
+      "酱香",
+      "素鸡"
+    ],
+    "ingredients": [
+      "素鸡;酱油;糖"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "bj_588.jpg",
+    "dish": "川大江安校区四喜烤麸",
+    "price": 5,
+    "tags": [
+      "甜咸",
+      "烤麸"
+    ],
+    "ingredients": [
+      "烤麸;木耳;花生"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "bj_589.jpg",
+    "dish": "西交创新港荠菜冬笋",
+    "price": 8,
+    "tags": [
+      "清香",
+      "脆嫩"
+    ],
+    "ingredients": [
+      "荠菜;冬笋;盐"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_590.jpg",
+    "dish": "哈工大天香园辣白菜炒五花肉",
+    "price": 12,
+    "tags": [
+      "酸辣",
+      "白菜"
+    ],
+    "ingredients": [
+      "五花肉;辣白菜;青椒"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "bj_591.jpg",
+    "dish": "北大燕南韩式泡菜炒饭",
+    "price": 10,
+    "tags": [
+      "微辣",
+      "泡菜"
+    ],
+    "ingredients": [
+      "米饭;泡菜;鸡蛋"
+    ],
+    "note": "北大燕南"
+  },
+  {
+    "file": "bj_592.jpg",
+    "dish": "清华听涛芝士焗红薯",
+    "price": 9,
+    "tags": [
+      "奶香",
+      "芝士"
+    ],
+    "ingredients": [
+      "红薯;马苏里拉;奶油"
+    ],
+    "note": "清华听涛"
+  },
+  {
+    "file": "bj_593.jpg",
+    "dish": "复旦南区日式照烧鸡排",
+    "price": 13,
+    "tags": [
+      "照烧",
+      "甜咸"
+    ],
+    "ingredients": [
+      "鸡排;照烧汁;西兰花"
+    ],
+    "note": "复旦南区"
+  },
+  {
+    "file": "bj_594.jpg",
+    "dish": "浙大玉泉校区泰式冬阴功汤",
+    "price": 14,
+    "tags": [
+      "酸辣",
+      "香茅"
+    ],
+    "ingredients": [
+      "虾;香茅;柠檬叶"
+    ],
+    "note": "浙大玉泉"
+  },
+  {
+    "file": "bj_595.jpg",
+    "dish": "南大六食堂越南河粉",
+    "price": 11,
+    "tags": [
+      "清汤",
+      "河粉"
+    ],
+    "ingredients": [
+      "河粉;牛肉;九层塔"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "bj_596.jpg",
+    "dish": "武大桂园新加坡叻沙",
+    "price": 12,
+    "tags": [
+      "椰浆",
+      "微辣"
+    ],
+    "ingredients": [
+      "米粉;椰浆;虾"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "bj_597.jpg",
+    "dish": "中山大学松涛园马来西亚炒粿条",
+    "price": 10,
+    "tags": [
+      "黑豉",
+      "微辣"
+    ],
+    "ingredients": [
+      "粿条;豆芽;鸡蛋"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "bj_598.jpg",
+    "dish": "川大江安印尼炒饭",
+    "price": 9,
+    "tags": [
+      "甜辣",
+      "炒饭"
+    ],
+    "ingredients": [
+      "米饭;鸡肉;虾片"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "bj_599.jpg",
+    "dish": "西交创新港菲律宾烤鸡",
+    "price": 12,
+    "tags": [
+      "香茅",
+      "烤鸡"
+    ],
+    "ingredients": [
+      "鸡肉;香茅;柠檬"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "bj_600.jpg",
+    "dish": "哈工大天香园意式奶油培根面",
+    "price": 16,
+    "tags": [
+      "奶香",
+      "培根"
+    ],
+    "ingredients": [
+      "意面;培根;奶油"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_601.jpg",
+    "dish": "南大六食堂盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_602.jpg",
+    "dish": "南大九食堂红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_603.jpg",
+    "dish": "南大十食堂干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_604.jpg",
+    "dish": "南大十食堂京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_605.jpg",
+    "dish": "南大六食堂咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_606.jpg",
+    "dish": "南大九食堂蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_607.jpg",
+    "dish": "南大十食堂毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_608.jpg",
+    "dish": "南大六食堂东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_609.jpg",
+    "dish": "南大九食堂酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_610.jpg",
+    "dish": "南大十食堂孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_611.jpg",
+    "dish": "武大桂园盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_612.jpg",
+    "dish": "武大梅园红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_613.jpg",
+    "dish": "武大信息学部干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "武大信部"
+  },
+  {
+    "file": "sh_614.jpg",
+    "dish": "武大工学部京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "sh_615.jpg",
+    "dish": "武大桂园咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_616.jpg",
+    "dish": "武大梅园蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_617.jpg",
+    "dish": "武大信息学部毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "武大信部"
+  },
+  {
+    "file": "sh_618.jpg",
+    "dish": "武大工学部东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "sh_619.jpg",
+    "dish": "武大桂园酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_620.jpg",
+    "dish": "武大梅园孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_621.jpg",
+    "dish": "中山大学松涛园盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "sh_622.jpg",
+    "dish": "中山大学学一红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_623.jpg",
+    "dish": "中山大学东校干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_624.jpg",
+    "dish": "中山大学学一京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_625.jpg",
+    "dish": "中山大学松涛园咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "sh_626.jpg",
+    "dish": "中山大学学一蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_627.jpg",
+    "dish": "中山大学东校毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_628.jpg",
+    "dish": "中山大学松涛园东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "sh_629.jpg",
+    "dish": "中山大学学一酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_630.jpg",
+    "dish": "中山大学东校孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_631.jpg",
+    "dish": "川大江安校区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_632.jpg",
+    "dish": "川大望江校区红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_633.jpg",
+    "dish": "川大江安校区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_634.jpg",
+    "dish": "川大望江校区京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_635.jpg",
+    "dish": "川大江安校区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_636.jpg",
+    "dish": "川大望江校区蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_637.jpg",
+    "dish": "川大江安校区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_638.jpg",
+    "dish": "川大望江校区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_639.jpg",
+    "dish": "川大江安校区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_640.jpg",
+    "dish": "川大望江校区孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_641.jpg",
+    "dish": "西交创新港盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "sh_642.jpg",
+    "dish": "西交康桥苑红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "sh_643.jpg",
+    "dish": "西交创新港干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "sh_644.jpg",
+    "dish": "西交康桥苑京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "sh_645.jpg",
+    "dish": "西交创新港咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "sh_646.jpg",
+    "dish": "西交康桥苑蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "sh_647.jpg",
+    "dish": "西交创新港毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "sh_648.jpg",
+    "dish": "西交康桥苑东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "sh_649.jpg",
+    "dish": "西交创新港酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "西交创新港"
+  },
+  {
+    "file": "sh_650.jpg",
+    "dish": "西交康桥苑孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "西交康桥苑"
+  },
+  {
+    "file": "sh_651.jpg",
+    "dish": "哈工大一校区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "sh_652.jpg",
+    "dish": "哈工大天香园红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_653.jpg",
+    "dish": "哈工大一校区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "sh_654.jpg",
+    "dish": "哈工大天香园京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_655.jpg",
+    "dish": "哈工大一校区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "sh_656.jpg",
+    "dish": "哈工大天香园蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_657.jpg",
+    "dish": "哈工大一校区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "sh_658.jpg",
+    "dish": "哈工大天香园东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_659.jpg",
+    "dish": "哈工大一校区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "哈工大一校区"
+  },
+  {
+    "file": "sh_660.jpg",
+    "dish": "哈工大天香园孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "哈工大天香园"
+  },
+  {
+    "file": "sh_661.jpg",
+    "dish": "南大六食堂梅菜扣肉",
+    "price": 16,
+    "tags": [
+      "咸鲜",
+      "梅菜"
+    ],
+    "ingredients": [
+      "五花肉;梅干菜;生抽"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_662.jpg",
+    "dish": "南大九食堂鱼香肉丝",
+    "price": 9,
+    "tags": [
+      "微辣",
+      "酸辣"
+    ],
+    "ingredients": [
+      "猪肉;木耳;胡萝卜"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_663.jpg",
+    "dish": "南大十食堂宫保鸡丁",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "花生"
+    ],
+    "ingredients": [
+      "鸡肉;花生;干辣椒"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_664.jpg",
+    "dish": "南大六食堂水煮牛肉",
+    "price": 15,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "牛肉;豆芽;莴笋"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_665.jpg",
+    "dish": "南大九食堂毛血旺",
+    "price": 18,
+    "tags": [
+      "麻辣",
+      "血旺"
+    ],
+    "ingredients": [
+      "鸭血;毛肚;黄喉"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_666.jpg",
+    "dish": "南大十食堂钵钵鸡",
+    "price": 13,
+    "tags": [
+      "麻辣",
+      "冷吃"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;土豆"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_667.jpg",
+    "dish": "南大六食堂口水鸡",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "凉菜"
+    ],
+    "ingredients": [
+      "鸡腿;花椒;黄瓜"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_668.jpg",
+    "dish": "南大九食堂回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "南大九食堂"
+  },
+  {
+    "file": "sh_669.jpg",
+    "dish": "南大十食堂麻婆豆腐",
+    "price": 6,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "南大十食堂"
+  },
+  {
+    "file": "sh_670.jpg",
+    "dish": "南大六食堂蚂蚁上树",
+    "price": 7,
+    "tags": [
+      "微辣",
+      "粉丝"
+    ],
+    "ingredients": [
+      "粉丝;肉末;豆瓣酱"
+    ],
+    "note": "南大六食堂"
+  },
+  {
+    "file": "sh_671.jpg",
+    "dish": "武大桂园梅菜扣肉",
+    "price": 16,
+    "tags": [
+      "咸鲜",
+      "梅菜"
+    ],
+    "ingredients": [
+      "五花肉;梅干菜;生抽"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_672.jpg",
+    "dish": "武大梅园鱼香肉丝",
+    "price": 9,
+    "tags": [
+      "微辣",
+      "酸辣"
+    ],
+    "ingredients": [
+      "猪肉;木耳;胡萝卜"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_673.jpg",
+    "dish": "武大信息学部宫保鸡丁",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "花生"
+    ],
+    "ingredients": [
+      "鸡肉;花生;干辣椒"
+    ],
+    "note": "武大信部"
+  },
+  {
+    "file": "sh_674.jpg",
+    "dish": "武大工学部水煮牛肉",
+    "price": 15,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "牛肉;豆芽;莴笋"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "sh_675.jpg",
+    "dish": "武大桂园毛血旺",
+    "price": 18,
+    "tags": [
+      "麻辣",
+      "血旺"
+    ],
+    "ingredients": [
+      "鸭血;毛肚;黄喉"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_676.jpg",
+    "dish": "武大梅园钵钵鸡",
+    "price": 13,
+    "tags": [
+      "麻辣",
+      "冷吃"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;土豆"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_677.jpg",
+    "dish": "武大信息学部口水鸡",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "凉菜"
+    ],
+    "ingredients": [
+      "鸡腿;花椒;黄瓜"
+    ],
+    "note": "武大信部"
+  },
+  {
+    "file": "sh_678.jpg",
+    "dish": "武大工学部回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "武大工学部"
+  },
+  {
+    "file": "sh_679.jpg",
+    "dish": "武大桂园麻婆豆腐",
+    "price": 6,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "武大桂园"
+  },
+  {
+    "file": "sh_680.jpg",
+    "dish": "武大梅园蚂蚁上树",
+    "price": 7,
+    "tags": [
+      "微辣",
+      "粉丝"
+    ],
+    "ingredients": [
+      "粉丝;肉末;豆瓣酱"
+    ],
+    "note": "武大梅园"
+  },
+  {
+    "file": "sh_681.jpg",
+    "dish": "中山大学松涛园梅菜扣肉",
+    "price": 16,
+    "tags": [
+      "咸鲜",
+      "梅菜"
+    ],
+    "ingredients": [
+      "五花肉;梅干菜;生抽"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "sh_682.jpg",
+    "dish": "中山大学学一鱼香肉丝",
+    "price": 9,
+    "tags": [
+      "微辣",
+      "酸辣"
+    ],
+    "ingredients": [
+      "猪肉;木耳;胡萝卜"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_683.jpg",
+    "dish": "中山大学东校宫保鸡丁",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "花生"
+    ],
+    "ingredients": [
+      "鸡肉;花生;干辣椒"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_684.jpg",
+    "dish": "中山大学学一水煮牛肉",
+    "price": 15,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "牛肉;豆芽;莴笋"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_685.jpg",
+    "dish": "中山大学松涛园毛血旺",
+    "price": 18,
+    "tags": [
+      "麻辣",
+      "血旺"
+    ],
+    "ingredients": [
+      "鸭血;毛肚;黄喉"
+    ],
+    "note": "中大松涛园"
+  },
+  {
+    "file": "sh_686.jpg",
+    "dish": "中山大学东校钵钵鸡",
+    "price": 13,
+    "tags": [
+      "麻辣",
+      "冷吃"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;土豆"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_687.jpg",
+    "dish": "中山大学学一口水鸡",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "凉菜"
+    ],
+    "ingredients": [
+      "鸡腿;花椒;黄瓜"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_688.jpg",
+    "dish": "中山大学东校回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_689.jpg",
+    "dish": "中山大学学一麻婆豆腐",
+    "price": 6,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "中大學一"
+  },
+  {
+    "file": "sh_690.jpg",
+    "dish": "中山大学东校蚂蚁上树",
+    "price": 7,
+    "tags": [
+      "微辣",
+      "粉丝"
+    ],
+    "ingredients": [
+      "粉丝;肉末;豆瓣酱"
+    ],
+    "note": "中大东校"
+  },
+  {
+    "file": "sh_691.jpg",
+    "dish": "川大江安校区梅菜扣肉",
+    "price": 16,
+    "tags": [
+      "咸鲜",
+      "梅菜"
+    ],
+    "ingredients": [
+      "五花肉;梅干菜;生抽"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_692.jpg",
+    "dish": "川大望江校区鱼香肉丝",
+    "price": 9,
+    "tags": [
+      "微辣",
+      "酸辣"
+    ],
+    "ingredients": [
+      "猪肉;木耳;胡萝卜"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_693.jpg",
+    "dish": "川大江安校区宫保鸡丁",
+    "price": 8,
+    "tags": [
+      "麻辣",
+      "花生"
+    ],
+    "ingredients": [
+      "鸡肉;花生;干辣椒"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_694.jpg",
+    "dish": "川大望江校区水煮牛肉",
+    "price": 15,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "牛肉;豆芽;莴笋"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_695.jpg",
+    "dish": "川大江安校区毛血旺",
+    "price": 18,
+    "tags": [
+      "麻辣",
+      "血旺"
+    ],
+    "ingredients": [
+      "鸭血;毛肚;黄喉"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_696.jpg",
+    "dish": "川大望江校区钵钵鸡",
+    "price": 13,
+    "tags": [
+      "麻辣",
+      "冷吃"
+    ],
+    "ingredients": [
+      "鸡肉;藕片;土豆"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_697.jpg",
+    "dish": "川大江安校区口水鸡",
+    "price": 9,
+    "tags": [
+      "麻辣",
+      "凉菜"
+    ],
+    "ingredients": [
+      "鸡腿;花椒;黄瓜"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_698.jpg",
+    "dish": "川大望江校区回锅肉",
+    "price": 11,
+    "tags": [
+      "香辣",
+      "豆豉"
+    ],
+    "ingredients": [
+      "五花肉;青椒;豆豉"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_699.jpg",
+    "dish": "川大江安校区麻婆豆腐",
+    "price": 6,
+    "tags": [
+      "麻辣",
+      "嫩滑"
+    ],
+    "ingredients": [
+      "豆腐;肉末;豆瓣酱"
+    ],
+    "note": "川大江安"
+  },
+  {
+    "file": "sh_700.jpg",
+    "dish": "川大望江校区蚂蚁上树",
+    "price": 7,
+    "tags": [
+      "微辣",
+      "粉丝"
+    ],
+    "ingredients": [
+      "粉丝;肉末;豆瓣酱"
+    ],
+    "note": "川大望江"
+  },
+  {
+    "file": "sh_701.jpg",
+    "dish": "厦大芙蓉盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "厦大芙蓉食堂"
+  },
+  {
+    "file": "sh_702.jpg",
+    "dish": "厦大勤业红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "厦大勤业食堂"
+  },
+  {
+    "file": "sh_703.jpg",
+    "dish": "厦大南光干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "厦大南光食堂"
+  },
+  {
+    "file": "sh_704.jpg",
+    "dish": "厦大东苑京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "厦大东苑食堂"
+  },
+  {
+    "file": "sh_705.jpg",
+    "dish": "厦大芙蓉咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "厦大芙蓉食堂"
+  },
+  {
+    "file": "sh_706.jpg",
+    "dish": "厦大勤业蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "厦大勤业食堂"
+  },
+  {
+    "file": "sh_707.jpg",
+    "dish": "厦大南光毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "厦大南光食堂"
+  },
+  {
+    "file": "sh_708.jpg",
+    "dish": "厦大东苑东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "厦大东苑食堂"
+  },
+  {
+    "file": "sh_709.jpg",
+    "dish": "厦大芙蓉酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "厦大芙蓉食堂"
+  },
+  {
+    "file": "sh_710.jpg",
+    "dish": "厦大勤业孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "厦大勤业食堂"
+  },
+  {
+    "file": "sh_711.jpg",
+    "dish": "东南九龙湖盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "东南九龙湖食堂"
+  },
+  {
+    "file": "sh_712.jpg",
+    "dish": "东南四牌楼红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "东南四牌楼食堂"
+  },
+  {
+    "file": "sh_713.jpg",
+    "dish": "东南九龙湖干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "东南九龙湖食堂"
+  },
+  {
+    "file": "sh_714.jpg",
+    "dish": "东南四牌楼京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "东南四牌楼食堂"
+  },
+  {
+    "file": "sh_715.jpg",
+    "dish": "东南九龙湖咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "东南九龙湖食堂"
+  },
+  {
+    "file": "sh_716.jpg",
+    "dish": "东南四牌楼蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "东南四牌楼食堂"
+  },
+  {
+    "file": "sh_717.jpg",
+    "dish": "东南九龙湖毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "东南九龙湖食堂"
+  },
+  {
+    "file": "sh_718.jpg",
+    "dish": "东南四牌楼东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "东南四牌楼食堂"
+  },
+  {
+    "file": "sh_719.jpg",
+    "dish": "东南九龙湖酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "东南九龙湖食堂"
+  },
+  {
+    "file": "sh_720.jpg",
+    "dish": "东南四牌楼孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "东南四牌楼食堂"
+  },
+  {
+    "file": "sh_721.jpg",
+    "dish": "华科喻园盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "华科喻园食堂"
+  },
+  {
+    "file": "sh_722.jpg",
+    "dish": "华科百景园红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "华科百景园食堂"
+  },
+  {
+    "file": "sh_723.jpg",
+    "dish": "华科喻园干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "华科喻园食堂"
+  },
+  {
+    "file": "sh_724.jpg",
+    "dish": "华科百景园京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "华科百景园食堂"
+  },
+  {
+    "file": "sh_725.jpg",
+    "dish": "华科喻园咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "华科喻园食堂"
+  },
+  {
+    "file": "sh_726.jpg",
+    "dish": "华科百景园蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "华科百景园食堂"
+  },
+  {
+    "file": "sh_727.jpg",
+    "dish": "华科喻园毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "华科喻园食堂"
+  },
+  {
+    "file": "sh_728.jpg",
+    "dish": "华科百景园东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "华科百景园食堂"
+  },
+  {
+    "file": "sh_729.jpg",
+    "dish": "华科喻园酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "华科喻园食堂"
+  },
+  {
+    "file": "sh_730.jpg",
+    "dish": "华科百景园孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "华科百景园食堂"
+  },
+  {
+    "file": "sh_731.jpg",
+    "dish": "湖大天马盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "湖大天马食堂"
+  },
+  {
+    "file": "sh_732.jpg",
+    "dish": "湖大德智红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "湖大德智食堂"
+  },
+  {
+    "file": "sh_733.jpg",
+    "dish": "湖大天马干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "湖大天马食堂"
+  },
+  {
+    "file": "sh_734.jpg",
+    "dish": "湖大德智京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "湖大德智食堂"
+  },
+  {
+    "file": "sh_735.jpg",
+    "dish": "湖大天马咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "湖大天马食堂"
+  },
+  {
+    "file": "sh_736.jpg",
+    "dish": "湖大德智蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "湖大德智食堂"
+  },
+  {
+    "file": "sh_737.jpg",
+    "dish": "湖大天马毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "湖大天马食堂"
+  },
+  {
+    "file": "sh_738.jpg",
+    "dish": "湖大德智东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "湖大德智食堂"
+  },
+  {
+    "file": "sh_739.jpg",
+    "dish": "湖大天马酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "湖大天马食堂"
+  },
+  {
+    "file": "sh_740.jpg",
+    "dish": "湖大德智孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "湖大德智食堂"
+  },
+  {
+    "file": "sh_741.jpg",
+    "dish": "华工五山盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "华工五山食堂"
+  },
+  {
+    "file": "sh_742.jpg",
+    "dish": "华工大学城红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "华工大学城食堂"
+  },
+  {
+    "file": "sh_743.jpg",
+    "dish": "华工五山干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "华工五山食堂"
+  },
+  {
+    "file": "sh_744.jpg",
+    "dish": "华工大学城京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "华工大学城食堂"
+  },
+  {
+    "file": "sh_745.jpg",
+    "dish": "华工五山咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "华工五山食堂"
+  },
+  {
+    "file": "sh_746.jpg",
+    "dish": "华工大学城蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "华工大学城食堂"
+  },
+  {
+    "file": "sh_747.jpg",
+    "dish": "华工五山毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "华工五山食堂"
+  },
+  {
+    "file": "sh_748.jpg",
+    "dish": "华工大学城东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "华工大学城食堂"
+  },
+  {
+    "file": "sh_749.jpg",
+    "dish": "华工五山酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "华工五山食堂"
+  },
+  {
+    "file": "sh_750.jpg",
+    "dish": "华工大学城孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "华工大学城食堂"
+  },
+  {
+    "file": "sh_751.jpg",
+    "dish": "重大A区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "重大A区食堂"
+  },
+  {
+    "file": "sh_752.jpg",
+    "dish": "重大虎溪红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "重大虎溪食堂"
+  },
+  {
+    "file": "sh_753.jpg",
+    "dish": "重大A区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "重大A区食堂"
+  },
+  {
+    "file": "sh_754.jpg",
+    "dish": "重大虎溪京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "重大虎溪食堂"
+  },
+  {
+    "file": "sh_755.jpg",
+    "dish": "重大A区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "重大A区食堂"
+  },
+  {
+    "file": "sh_756.jpg",
+    "dish": "重大虎溪蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "重大虎溪食堂"
+  },
+  {
+    "file": "sh_757.jpg",
+    "dish": "重大A区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "重大A区食堂"
+  },
+  {
+    "file": "sh_758.jpg",
+    "dish": "重大虎溪东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "重大虎溪食堂"
+  },
+  {
+    "file": "sh_759.jpg",
+    "dish": "重大A区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "重大A区食堂"
+  },
+  {
+    "file": "sh_760.jpg",
+    "dish": "重大虎溪孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "重大虎溪食堂"
+  },
+  {
+    "file": "sh_761.jpg",
+    "dish": "成电清水河盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "成电清水河食堂"
+  },
+  {
+    "file": "sh_762.jpg",
+    "dish": "成电沙河红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "成电沙河食堂"
+  },
+  {
+    "file": "sh_763.jpg",
+    "dish": "成电清水河干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "成电清水河食堂"
+  },
+  {
+    "file": "sh_764.jpg",
+    "dish": "成电沙河京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "成电沙河食堂"
+  },
+  {
+    "file": "sh_765.jpg",
+    "dish": "成电清水河咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "成电清水河食堂"
+  },
+  {
+    "file": "sh_766.jpg",
+    "dish": "成电沙河蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "成电沙河食堂"
+  },
+  {
+    "file": "sh_767.jpg",
+    "dish": "成电清水河毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "成电清水河食堂"
+  },
+  {
+    "file": "sh_768.jpg",
+    "dish": "成电沙河东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "成电沙河食堂"
+  },
+  {
+    "file": "sh_769.jpg",
+    "dish": "成电清水河酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "成电清水河食堂"
+  },
+  {
+    "file": "sh_770.jpg",
+    "dish": "成电沙河孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "成电沙河食堂"
+  },
+  {
+    "file": "sh_771.jpg",
+    "dish": "北邮沙河盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "北邮沙河食堂"
+  },
+  {
+    "file": "sh_772.jpg",
+    "dish": "北邮本部红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "北邮本部食堂"
+  },
+  {
+    "file": "sh_773.jpg",
+    "dish": "北邮沙河干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "北邮沙河食堂"
+  },
+  {
+    "file": "sh_774.jpg",
+    "dish": "北邮本部京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "北邮本部食堂"
+  },
+  {
+    "file": "sh_775.jpg",
+    "dish": "北邮沙河咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "北邮沙河食堂"
+  },
+  {
+    "file": "sh_776.jpg",
+    "dish": "北邮本部蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "北邮本部食堂"
+  },
+  {
+    "file": "sh_777.jpg",
+    "dish": "北邮沙河毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "北邮沙河食堂"
+  },
+  {
+    "file": "sh_778.jpg",
+    "dish": "北邮本部东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "北邮本部食堂"
+  },
+  {
+    "file": "sh_779.jpg",
+    "dish": "北邮沙河酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "北邮沙河食堂"
+  },
+  {
+    "file": "sh_780.jpg",
+    "dish": "北邮本部孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "北邮本部食堂"
+  },
+  {
+    "file": "sh_781.jpg",
+    "dish": "北航学院路盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "北航学院路食堂"
+  },
+  {
+    "file": "sh_782.jpg",
+    "dish": "北航沙河红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "北航沙河食堂"
+  },
+  {
+    "file": "sh_783.jpg",
+    "dish": "北航学院路干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "北航学院路食堂"
+  },
+  {
+    "file": "sh_784.jpg",
+    "dish": "北航沙河京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "北航沙河食堂"
+  },
+  {
+    "file": "sh_785.jpg",
+    "dish": "北航学院路咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "北航学院路食堂"
+  },
+  {
+    "file": "sh_786.jpg",
+    "dish": "北航沙河蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "北航沙河食堂"
+  },
+  {
+    "file": "sh_787.jpg",
+    "dish": "北航学院路毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "北航学院路食堂"
+  },
+  {
+    "file": "sh_788.jpg",
+    "dish": "北航沙河东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "北航沙河食堂"
+  },
+  {
+    "file": "sh_789.jpg",
+    "dish": "北航学院路酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "北航学院路食堂"
+  },
+  {
+    "file": "sh_790.jpg",
+    "dish": "北航沙河孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "北航沙河食堂"
+  },
+  {
+    "file": "sh_791.jpg",
+    "dish": "北师大邱季端盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "北师大邱季端体育馆食堂"
+  },
+  {
+    "file": "sh_792.jpg",
+    "dish": "北师大学五红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "北师大学五食堂"
+  },
+  {
+    "file": "sh_793.jpg",
+    "dish": "北师大邱季端干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "北师大邱季端食堂"
+  },
+  {
+    "file": "sh_794.jpg",
+    "dish": "北师大学五京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "北师大学五食堂"
+  },
+  {
+    "file": "sh_795.jpg",
+    "dish": "北师大邱季端咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "北师大邱季端食堂"
+  },
+  {
+    "file": "sh_796.jpg",
+    "dish": "北师大学五蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "北师大学五食堂"
+  },
+  {
+    "file": "sh_797.jpg",
+    "dish": "北师大邱季端毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "北师大邱季端食堂"
+  },
+  {
+    "file": "sh_798.jpg",
+    "dish": "北师大学五东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "北师大学五食堂"
+  },
+  {
+    "file": "sh_799.jpg",
+    "dish": "北师大邱季端酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "北师大邱季端食堂"
+  },
+  {
+    "file": "sh_800.jpg",
+    "dish": "北师大学五孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "北师大学五食堂"
+  },
+  {
+    "file": "sh_801.jpg",
+    "dish": "兰大榆中盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "兰大榆中校区食堂"
+  },
+  {
+    "file": "sh_802.jpg",
+    "dish": "兰大本部红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "兰大本部食堂"
+  },
+  {
+    "file": "sh_803.jpg",
+    "dish": "兰大榆中干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "兰大榆中食堂"
+  },
+  {
+    "file": "sh_804.jpg",
+    "dish": "兰大本部京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "兰大本部食堂"
+  },
+  {
+    "file": "sh_805.jpg",
+    "dish": "兰大榆中咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "兰大榆中食堂"
+  },
+  {
+    "file": "sh_806.jpg",
+    "dish": "兰大本部蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "兰大本部食堂"
+  },
+  {
+    "file": "sh_807.jpg",
+    "dish": "兰大榆中毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "兰大榆中食堂"
+  },
+  {
+    "file": "sh_808.jpg",
+    "dish": "兰大本部东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "兰大本部食堂"
+  },
+  {
+    "file": "sh_809.jpg",
+    "dish": "兰大榆中酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "兰大榆中食堂"
+  },
+  {
+    "file": "sh_810.jpg",
+    "dish": "兰大本部孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "兰大本部食堂"
+  },
+  {
+    "file": "sh_811.jpg",
+    "dish": "东北大学浑南盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "东北浑南校区食堂"
+  },
+  {
+    "file": "sh_812.jpg",
+    "dish": "东北大学本部红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "东北本部食堂"
+  },
+  {
+    "file": "sh_813.jpg",
+    "dish": "东北大学浑南干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "东北浑南食堂"
+  },
+  {
+    "file": "sh_814.jpg",
+    "dish": "东北大学本部京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "东北本部食堂"
+  },
+  {
+    "file": "sh_815.jpg",
+    "dish": "东北大学浑南咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "东北浑南食堂"
+  },
+  {
+    "file": "sh_816.jpg",
+    "dish": "东北大学本部蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "东北本部食堂"
+  },
+  {
+    "file": "sh_817.jpg",
+    "dish": "东北大学浑南毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "东北浑南食堂"
+  },
+  {
+    "file": "sh_818.jpg",
+    "dish": "东北大学本部东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "东北本部食堂"
+  },
+  {
+    "file": "sh_819.jpg",
+    "dish": "东北大学浑南酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "东北浑南食堂"
+  },
+  {
+    "file": "sh_820.jpg",
+    "dish": "东北大学本部孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "东北本部食堂"
+  },
+  {
+    "file": "sh_821.jpg",
+    "dish": "吉大前卫盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "吉大前卫校区食堂"
+  },
+  {
+    "file": "sh_822.jpg",
+    "dish": "吉大南岭红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "吉大南岭食堂"
+  },
+  {
+    "file": "sh_823.jpg",
+    "dish": "吉大前卫干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "吉大前卫食堂"
+  },
+  {
+    "file": "sh_824.jpg",
+    "dish": "吉大南岭京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "吉大南岭食堂"
+  },
+  {
+    "file": "sh_825.jpg",
+    "dish": "吉大前卫咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "吉大前卫食堂"
+  },
+  {
+    "file": "sh_826.jpg",
+    "dish": "吉大南岭蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "吉大南岭食堂"
+  },
+  {
+    "file": "sh_827.jpg",
+    "dish": "吉大前卫毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "吉大前卫食堂"
+  },
+  {
+    "file": "sh_828.jpg",
+    "dish": "吉大南岭东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "吉大南岭食堂"
+  },
+  {
+    "file": "sh_829.jpg",
+    "dish": "吉大前卫酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "吉大前卫食堂"
+  },
+  {
+    "file": "sh_830.jpg",
+    "dish": "吉大南岭孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "吉大南岭食堂"
+  },
+  {
+    "file": "sh_831.jpg",
+    "dish": "哈工程启航盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "哈工程启航活动中心食堂"
+  },
+  {
+    "file": "sh_832.jpg",
+    "dish": "哈工程本部红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "哈工程本部食堂"
+  },
+  {
+    "file": "sh_833.jpg",
+    "dish": "哈工程启航干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "哈工程启航食堂"
+  },
+  {
+    "file": "sh_834.jpg",
+    "dish": "哈工程本部京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "哈工程本部食堂"
+  },
+  {
+    "file": "sh_835.jpg",
+    "dish": "哈工程启航咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "哈工程启航食堂"
+  },
+  {
+    "file": "sh_836.jpg",
+    "dish": "哈工程本部蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "哈工程本部食堂"
+  },
+  {
+    "file": "sh_837.jpg",
+    "dish": "哈工程启航毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "哈工程启航食堂"
+  },
+  {
+    "file": "sh_838.jpg",
+    "dish": "哈工程本部东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "哈工程本部食堂"
+  },
+  {
+    "file": "sh_839.jpg",
+    "dish": "哈工程启航酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "哈工程启航食堂"
+  },
+  {
+    "file": "sh_840.jpg",
+    "dish": "哈工程本部孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "哈工程本部食堂"
+  },
+  {
+    "file": "sh_841.jpg",
+    "dish": "中农东校区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "中农东校区食堂"
+  },
+  {
+    "file": "sh_842.jpg",
+    "dish": "中农西校区红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "中农西校区食堂"
+  },
+  {
+    "file": "sh_843.jpg",
+    "dish": "中农东校区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "中农东校区食堂"
+  },
+  {
+    "file": "sh_844.jpg",
+    "dish": "中农西校区京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "中农西校区食堂"
+  },
+  {
+    "file": "sh_845.jpg",
+    "dish": "中农东校区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "中农东校区食堂"
+  },
+  {
+    "file": "sh_846.jpg",
+    "dish": "中农西校区蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "中农西校区食堂"
+  },
+  {
+    "file": "sh_847.jpg",
+    "dish": "中农东校区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "中农东校区食堂"
+  },
+  {
+    "file": "sh_848.jpg",
+    "dish": "中农西校区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "中农西校区食堂"
+  },
+  {
+    "file": "sh_849.jpg",
+    "dish": "中农东校区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "中农东校区食堂"
+  },
+  {
+    "file": "sh_850.jpg",
+    "dish": "中农西校区孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "中农西校区食堂"
+  },
+  {
+    "file": "sh_851.jpg",
+    "dish": "西北农林北校盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "西北农林北校食堂"
+  },
+  {
+    "file": "sh_852.jpg",
+    "dish": "西北农林南校红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "西北农林南校食堂"
+  },
+  {
+    "file": "sh_853.jpg",
+    "dish": "西北农林北校干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "西北农林北校食堂"
+  },
+  {
+    "file": "sh_854.jpg",
+    "dish": "西北农林南校京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "西北农林南校食堂"
+  },
+  {
+    "file": "sh_855.jpg",
+    "dish": "西北农林北校咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "西北农林北校食堂"
+  },
+  {
+    "file": "sh_856.jpg",
+    "dish": "西北农林南校蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "西北农林南校食堂"
+  },
+  {
+    "file": "sh_857.jpg",
+    "dish": "西北农林北校毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "西北农林北校食堂"
+  },
+  {
+    "file": "sh_858.jpg",
+    "dish": "西北农林南校东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "西北农林南校食堂"
+  },
+  {
+    "file": "sh_859.jpg",
+    "dish": "西北农林北校酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "西北农林北校食堂"
+  },
+  {
+    "file": "sh_860.jpg",
+    "dish": "西北农林南校孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "西北农林南校食堂"
+  },
+  {
+    "file": "sh_861.jpg",
+    "dish": "陕师大长安盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "陕师大长安校区食堂"
+  },
+  {
+    "file": "sh_862.jpg",
+    "dish": "陕师大雁塔红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "陕师大雁塔校区食堂"
+  },
+  {
+    "file": "sh_863.jpg",
+    "dish": "陕师大长安干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "陕师大长安食堂"
+  },
+  {
+    "file": "sh_864.jpg",
+    "dish": "陕师大雁塔京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "陕师大雁塔食堂"
+  },
+  {
+    "file": "sh_865.jpg",
+    "dish": "陕师大长安咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "陕师大长安食堂"
+  },
+  {
+    "file": "sh_866.jpg",
+    "dish": "陕师大雁塔蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "陕师大雁塔食堂"
+  },
+  {
+    "file": "sh_867.jpg",
+    "dish": "陕师大长安毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "陕师大长安食堂"
+  },
+  {
+    "file": "sh_868.jpg",
+    "dish": "陕师大雁塔东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "陕师大雁塔食堂"
+  },
+  {
+    "file": "sh_869.jpg",
+    "dish": "陕师大长安酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "陕师大长安食堂"
+  },
+  {
+    "file": "sh_870.jpg",
+    "dish": "陕师大雁塔孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "陕师大雁塔食堂"
+  },
+  {
+    "file": "sh_871.jpg",
+    "dish": "郑大主校区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "郑大主校区食堂"
+  },
+  {
+    "file": "sh_872.jpg",
+    "dish": "郑大南校区红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "郑大南校区食堂"
+  },
+  {
+    "file": "sh_873.jpg",
+    "dish": "郑大主校区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "郑大主校区食堂"
+  },
+  {
+    "file": "sh_874.jpg",
+    "dish": "郑大南校区京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "郑大南校区食堂"
+  },
+  {
+    "file": "sh_875.jpg",
+    "dish": "郑大主校区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "郑大主校区食堂"
+  },
+  {
+    "file": "sh_876.jpg",
+    "dish": "郑大南校区蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "郑大南校区食堂"
+  },
+  {
+    "file": "sh_877.jpg",
+    "dish": "郑大主校区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "郑大主校区食堂"
+  },
+  {
+    "file": "sh_878.jpg",
+    "dish": "郑大南校区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "郑大南校区食堂"
+  },
+  {
+    "file": "sh_879.jpg",
+    "dish": "郑大主校区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "郑大主校区食堂"
+  },
+  {
+    "file": "sh_880.jpg",
+    "dish": "郑大南校区孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "郑大南校区食堂"
+  },
+  {
+    "file": "sh_881.jpg",
+    "dish": "河大明伦盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "河大明伦校区食堂"
+  },
+  {
+    "file": "sh_882.jpg",
+    "dish": "河大金明红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "河大金明校区食堂"
+  },
+  {
+    "file": "sh_883.jpg",
+    "dish": "河大明伦干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "河大明伦食堂"
+  },
+  {
+    "file": "sh_884.jpg",
+    "dish": "河大金明京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "河大金明食堂"
+  },
+  {
+    "file": "sh_885.jpg",
+    "dish": "河大明伦咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "河大明伦食堂"
+  },
+  {
+    "file": "sh_886.jpg",
+    "dish": "河大金明蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "河大金明食堂"
+  },
+  {
+    "file": "sh_887.jpg",
+    "dish": "河大明伦毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "河大明伦食堂"
+  },
+  {
+    "file": "sh_888.jpg",
+    "dish": "河大金明东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "河大金明食堂"
+  },
+  {
+    "file": "sh_889.jpg",
+    "dish": "河大明伦酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "河大明伦食堂"
+  },
+  {
+    "file": "sh_890.jpg",
+    "dish": "河大金明孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "河大金明食堂"
+  },
+  {
+    "file": "sh_891.jpg",
+    "dish": "云大呈贡盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "云大呈贡校区食堂"
+  },
+  {
+    "file": "sh_892.jpg",
+    "dish": "云大东陆红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "云大东陆校区食堂"
+  },
+  {
+    "file": "sh_893.jpg",
+    "dish": "云大呈贡干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "云大呈贡食堂"
+  },
+  {
+    "file": "sh_894.jpg",
+    "dish": "云大东陆京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "云大东陆食堂"
+  },
+  {
+    "file": "sh_895.jpg",
+    "dish": "云大呈贡咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "云大呈贡食堂"
+  },
+  {
+    "file": "sh_896.jpg",
+    "dish": "云大东陆蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "云大东陆食堂"
+  },
+  {
+    "file": "sh_897.jpg",
+    "dish": "云大呈贡毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "云大呈贡食堂"
+  },
+  {
+    "file": "sh_898.jpg",
+    "dish": "云大东陆东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "云大东陆食堂"
+  },
+  {
+    "file": "sh_899.jpg",
+    "dish": "云大呈贡酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "云大呈贡食堂"
+  },
+  {
+    "file": "sh_900.jpg",
+    "dish": "云大东陆孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "云大东陆食堂"
+  },
+  {
+    "file": "sh_901.jpg",
+    "dish": "新师大昆仑盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "新师大昆仑校区食堂"
+  },
+  {
+    "file": "sh_902.jpg",
+    "dish": "新师大文光红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "新师大文光校区食堂"
+  },
+  {
+    "file": "sh_903.jpg",
+    "dish": "新师大昆仑干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "新师大昆仑食堂"
+  },
+  {
+    "file": "sh_904.jpg",
+    "dish": "新师大文光京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "新师大文光食堂"
+  },
+  {
+    "file": "sh_905.jpg",
+    "dish": "新师大昆仑咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "新师大昆仑食堂"
+  },
+  {
+    "file": "sh_906.jpg",
+    "dish": "新师大文光蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "新师大文光食堂"
+  },
+  {
+    "file": "sh_907.jpg",
+    "dish": "新师大昆仑毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "新师大昆仑食堂"
+  },
+  {
+    "file": "sh_908.jpg",
+    "dish": "新师大文光东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "新师大文光食堂"
+  },
+  {
+    "file": "sh_909.jpg",
+    "dish": "新师大昆仑酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "新师大昆仑食堂"
+  },
+  {
+    "file": "sh_910.jpg",
+    "dish": "新师大文光孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "新师大文光食堂"
+  },
+  {
+    "file": "sh_911.jpg",
+    "dish": "贵大西校区盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "贵大西校区食堂"
+  },
+  {
+    "file": "sh_912.jpg",
+    "dish": "贵大东校区红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "贵大东校区食堂"
+  },
+  {
+    "file": "sh_913.jpg",
+    "dish": "贵大西校区干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "贵大西校区食堂"
+  },
+  {
+    "file": "sh_914.jpg",
+    "dish": "贵大东校区京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "贵大东校区食堂"
+  },
+  {
+    "file": "sh_915.jpg",
+    "dish": "贵大西校区咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "贵大西校区食堂"
+  },
+  {
+    "file": "sh_916.jpg",
+    "dish": "贵大东校区蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "贵大东校区食堂"
+  },
+  {
+    "file": "sh_917.jpg",
+    "dish": "贵大西校区毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "贵大西校区食堂"
+  },
+  {
+    "file": "sh_918.jpg",
+    "dish": "贵大东校区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "贵大东校区食堂"
+  },
+  {
+    "file": "sh_919.jpg",
+    "dish": "贵大西校区酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "贵大西校区食堂"
+  },
+  {
+    "file": "sh_920.jpg",
+    "dish": "贵大东校区孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "贵大东校区食堂"
+  },
+  {
+    "file": "sh_921.jpg",
+    "dish": "广西大学东盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "广西大学东校园食堂"
+  },
+  {
+    "file": "sh_922.jpg",
+    "dish": "广西大学西红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "广西大学西校园食堂"
+  },
+  {
+    "file": "sh_923.jpg",
+    "dish": "广西大学东干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "广西大学东校园食堂"
+  },
+  {
+    "file": "sh_924.jpg",
+    "dish": "广西大学西京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "广西大学西校园食堂"
+  },
+  {
+    "file": "sh_925.jpg",
+    "dish": "广西大学东咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "广西大学东校园食堂"
+  },
+  {
+    "file": "sh_926.jpg",
+    "dish": "广西大学西蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "广西大学西校园食堂"
+  },
+  {
+    "file": "sh_927.jpg",
+    "dish": "广西大学东毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "广西大学东校园食堂"
+  },
+  {
+    "file": "sh_928.jpg",
+    "dish": "广西大学西东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "广西大学西校园食堂"
+  },
+  {
+    "file": "sh_929.jpg",
+    "dish": "广西大学东酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "广西大学东校园食堂"
+  },
+  {
+    "file": "sh_930.jpg",
+    "dish": "广西大学西孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "广西大学西校园食堂"
+  },
+  {
+    "file": "sh_931.jpg",
+    "dish": "海南大学海甸盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "海南大学海甸校区食堂"
+  },
+  {
+    "file": "sh_932.jpg",
+    "dish": "海南大学城西红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "海南大学城西校区食堂"
+  },
+  {
+    "file": "sh_933.jpg",
+    "dish": "海南大学海甸干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "海南大学海甸食堂"
+  },
+  {
+    "file": "sh_934.jpg",
+    "dish": "海南大学城西京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "海南大学城西食堂"
+  },
+  {
+    "file": "sh_935.jpg",
+    "dish": "海南大学海甸咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "海南大学海甸食堂"
+  },
+  {
+    "file": "sh_936.jpg",
+    "dish": "海南大学城西蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "海南大学城西食堂"
+  },
+  {
+    "file": "sh_937.jpg",
+    "dish": "海南大学海甸毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "海南大学海甸食堂"
+  },
+  {
+    "file": "sh_938.jpg",
+    "dish": "海南大学城西东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "海南大学城西食堂"
+  },
+  {
+    "file": "sh_939.jpg",
+    "dish": "海南大学海甸酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "海南大学海甸食堂"
+  },
+  {
+    "file": "sh_940.jpg",
+    "dish": "海南大学城西孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "海南大学城西食堂"
+  },
+  {
+    "file": "sh_941.jpg",
+    "dish": "西藏藏大纳金盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "西藏藏大纳金校区食堂"
+  },
+  {
+    "file": "sh_942.jpg",
+    "dish": "西藏藏大河坝林红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "西藏藏大河坝林校区食堂"
+  },
+  {
+    "file": "sh_943.jpg",
+    "dish": "西藏藏大纳金干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "西藏藏大纳金食堂"
+  },
+  {
+    "file": "sh_944.jpg",
+    "dish": "西藏藏大河坝林京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "西藏藏大河坝林食堂"
+  },
+  {
+    "file": "sh_945.jpg",
+    "dish": "西藏藏大纳金咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "西藏藏大纳金食堂"
+  },
+  {
+    "file": "sh_946.jpg",
+    "dish": "西藏藏大河坝林蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "西藏藏大河坝林食堂"
+  },
+  {
+    "file": "sh_947.jpg",
+    "dish": "西藏藏大纳金毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "西藏藏大纳金食堂"
+  },
+  {
+    "file": "sh_948.jpg",
+    "dish": "西藏藏大河坝林东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "西藏藏大河坝林食堂"
+  },
+  {
+    "file": "sh_949.jpg",
+    "dish": "西藏藏大纳金酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "西藏藏大纳金食堂"
+  },
+  {
+    "file": "sh_950.jpg",
+    "dish": "西藏藏大河坝林孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "西藏藏大河坝林食堂"
+  },
+  {
+    "file": "sh_951.jpg",
+    "dish": "青海大学校本部盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "青海大学校本部食堂"
+  },
+  {
+    "file": "sh_952.jpg",
+    "dish": "青海大学医学院红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "青海大学医学院食堂"
+  },
+  {
+    "file": "sh_953.jpg",
+    "dish": "青海大学校本部干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "青海大学校本部食堂"
+  },
+  {
+    "file": "sh_954.jpg",
+    "dish": "青海大学医学院京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "青海大学医学院食堂"
+  },
+  {
+    "file": "sh_955.jpg",
+    "dish": "青海大学校本部咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "青海大学校本部食堂"
+  },
+  {
+    "file": "sh_956.jpg",
+    "dish": "青海大学医学院蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "青海大学医学院食堂"
+  },
+  {
+    "file": "sh_957.jpg",
+    "dish": "青海大学校本部毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "青海大学校本部食堂"
+  },
+  {
+    "file": "sh_958.jpg",
+    "dish": "青海大学医学院东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "青海大学医学院食堂"
+  },
+  {
+    "file": "sh_959.jpg",
+    "dish": "青海大学校本部酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "青海大学校本部食堂"
+  },
+  {
+    "file": "sh_960.jpg",
+    "dish": "青海大学医学院孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "青海大学医学院食堂"
+  },
+  {
+    "file": "sh_961.jpg",
+    "dish": "宁夏大学贺兰盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "宁夏大学贺兰山校区食堂"
+  },
+  {
+    "file": "sh_962.jpg",
+    "dish": "宁夏大学文萃红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "宁夏大学文萃校区食堂"
+  },
+  {
+    "file": "sh_963.jpg",
+    "dish": "宁夏大学贺兰干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "宁夏大学贺兰山食堂"
+  },
+  {
+    "file": "sh_964.jpg",
+    "dish": "宁夏大学文萃京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "宁夏大学文萃食堂"
+  },
+  {
+    "file": "sh_965.jpg",
+    "dish": "宁夏大学贺兰咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "宁夏大学贺兰山食堂"
+  },
+  {
+    "file": "sh_966.jpg",
+    "dish": "宁夏大学文萃蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "宁夏大学文萃食堂"
+  },
+  {
+    "file": "sh_967.jpg",
+    "dish": "宁夏大学贺兰毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "宁夏大学贺兰山食堂"
+  },
+  {
+    "file": "sh_968.jpg",
+    "dish": "宁夏大学文萃东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "宁夏大学文萃食堂"
+  },
+  {
+    "file": "sh_969.jpg",
+    "dish": "宁夏大学贺兰酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "宁夏大学贺兰山食堂"
+  },
+  {
+    "file": "sh_970.jpg",
+    "dish": "宁夏大学文萃孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "宁夏大学文萃食堂"
+  },
+  {
+    "file": "sh_971.jpg",
+    "dish": "新疆大学红湖盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "新疆大学红湖校区食堂"
+  },
+  {
+    "file": "sh_972.jpg",
+    "dish": "新疆大学博达红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "新疆大学博达校区食堂"
+  },
+  {
+    "file": "sh_973.jpg",
+    "dish": "新疆大学红湖干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "新疆大学红湖食堂"
+  },
+  {
+    "file": "sh_974.jpg",
+    "dish": "新疆大学博达京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "新疆大学博达食堂"
+  },
+  {
+    "file": "sh_975.jpg",
+    "dish": "新疆大学红湖咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "新疆大学红湖食堂"
+  },
+  {
+    "file": "sh_976.jpg",
+    "dish": "新疆大学博达蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "新疆大学博达食堂"
+  },
+  {
+    "file": "sh_977.jpg",
+    "dish": "新疆大学红湖毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "新疆大学红湖食堂"
+  },
+  {
+    "file": "sh_978.jpg",
+    "dish": "新疆大学博达东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "新疆大学博达食堂"
+  },
+  {
+    "file": "sh_979.jpg",
+    "dish": "新疆大学红湖酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "新疆大学红湖食堂"
+  },
+  {
+    "file": "sh_980.jpg",
+    "dish": "新疆大学博达孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "新疆大学博达食堂"
+  },
+  {
+    "file": "sh_981.jpg",
+    "dish": "石河子大学会泽盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "石河子大学会泽区食堂"
+  },
+  {
+    "file": "sh_982.jpg",
+    "dish": "石河子大学中区红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "石河子大学中区食堂"
+  },
+  {
+    "file": "sh_983.jpg",
+    "dish": "石河子大学会泽干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "石河子大学会泽食堂"
+  },
+  {
+    "file": "sh_984.jpg",
+    "dish": "石河子大学中区京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "石河子大学中区食堂"
+  },
+  {
+    "file": "sh_985.jpg",
+    "dish": "石河子大学会泽咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "石河子大学会泽食堂"
+  },
+  {
+    "file": "sh_986.jpg",
+    "dish": "石河子大学中区蟹黄豆腐",
+    "price": 14,
+    "tags": [
+      "鲜咸",
+      "蟹味"
+    ],
+    "ingredients": [
+      "蟹黄;豆腐;高汤"
+    ],
+    "note": "石河子大学中区食堂"
+  },
+  {
+    "file": "sh_987.jpg",
+    "dish": "石河子大学会泽毛豆炒鸡丁",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "毛豆"
+    ],
+    "ingredients": [
+      "鸡肉;毛豆;红椒"
+    ],
+    "note": "石河子大学会泽食堂"
+  },
+  {
+    "file": "sh_988.jpg",
+    "dish": "石河子大学中区东坡肉",
+    "price": 18,
+    "tags": [
+      "甜咸",
+      "东坡"
+    ],
+    "ingredients": [
+      "五花肉;黄酒;冰糖"
+    ],
+    "note": "石河子大学中区食堂"
+  },
+  {
+    "file": "sh_989.jpg",
+    "dish": "石河子大学会泽酸菜鱼",
+    "price": 16,
+    "tags": [
+      "酸辣",
+      "鱼片"
+    ],
+    "ingredients": [
+      "黑鱼;酸菜;泡椒"
+    ],
+    "note": "石河子大学会泽食堂"
+  },
+  {
+    "file": "sh_990.jpg",
+    "dish": "石河子大学中区孜然羊肉粒",
+    "price": 15,
+    "tags": [
+      "孜然",
+      "羊肉"
+    ],
+    "ingredients": [
+      "羊肉;孜然;彩椒"
+    ],
+    "note": "石河子大学中区食堂"
+  },
+  {
+    "file": "sh_991.jpg",
+    "dish": "塔里木大学校本部盐水鸭",
+    "price": 14,
+    "tags": [
+      "咸鲜",
+      "鸭肉"
+    ],
+    "ingredients": [
+      "鸭肉;花椒;盐"
+    ],
+    "note": "塔里木大学校本部食堂"
+  },
+  {
+    "file": "sh_992.jpg",
+    "dish": "塔里木大学东扩红烧狮子头",
+    "price": 11,
+    "tags": [
+      "咸甜",
+      "大肉丸"
+    ],
+    "ingredients": [
+      "猪肉;马蹄;生抽"
+    ],
+    "note": "塔里木大学东扩校区食堂"
+  },
+  {
+    "file": "sh_993.jpg",
+    "dish": "塔里木大学校本部干煸豆角",
+    "price": 6,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "豆角;肉末;干辣椒"
+    ],
+    "note": "塔里木大学校本部食堂"
+  },
+  {
+    "file": "sh_994.jpg",
+    "dish": "塔里木大学东扩京酱肉丝",
+    "price": 11,
+    "tags": [
+      "甜咸",
+      "酱香"
+    ],
+    "ingredients": [
+      "猪肉;甜面酱;葱丝"
+    ],
+    "note": "塔里木大学东扩食堂"
+  },
+  {
+    "file": "sh_995.jpg",
+    "dish": "塔里木大学校本部咖喱土豆牛肉",
+    "price": 15,
+    "tags": [
+      "咖喱",
+      "微辣"
+    ],
+    "ingredients": [
+      "牛肉;土豆;咖喱块"
+    ],
+    "note": "塔里木大学校本部食堂"
+  },
+  {
+    "file": "东区食堂锅包肉.jpg",
+    "dish": "内蒙古大学东区食堂锅包肉",
+    "price": 14,
+    "tags": [
+      "酸甜",
+      "酥脆"
+    ],
+    "ingredients": [
+      "猪里脊;糖醋;胡萝卜"
+    ],
+    "note": "内蒙古大学东区食堂"
+  },
+  {
+    "file": "东区食堂豆腐炖五花肉.jpg",
+    "dish": "内蒙古大学东区食堂豆腐炖五花肉",
+    "price": 12,
+    "tags": [
+      "咸鲜",
+      "炖制"
+    ],
+    "ingredients": [
+      "五花肉;豆腐;土豆"
+    ],
+    "note": "内蒙古大学东区食堂"
+  },
+  {
+    "file": "东区食堂西红柿炒鸡蛋.jpg",
+    "dish": "内蒙古大学东区食堂西红柿炒鸡蛋",
+    "price": 18,
+    "tags": [
+      "酸甜",
+      "家常"
+    ],
+    "ingredients": [
+      "西红柿;鸡蛋;盐"
+    ],
+    "note": "内蒙古大学东区食堂"
+  },
+  {
+    "file": "东区食堂洋葱炒肉.jpg",
+    "dish": "内蒙古大学东区食堂洋葱炒肉",
+    "price": 16,
+    "tags": [
+      "孜然",
+      "铁板"
+    ],
+    "ingredients": [
+      "猪肉;洋葱;泡椒"
+    ],
+    "note": "内蒙古大学东区食堂"
+  },
+  {
+    "file": "东区食堂椒麻鸡块.jpg",
+    "dish": "内蒙古大学东区食堂椒麻鸡块",
+    "price": 15,
+    "tags": [
+      "微辣",
+      "干香"
+    ],
+    "ingredients": [
+      "鸡肉;花椒;彩椒"
+    ],
+    "note": "内蒙古大学东区食堂"
   }
 ]
