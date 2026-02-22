@@ -13,7 +13,10 @@ from .extensions import jwt # 导入 JWTManager 实例（已创建但未绑定�
 from .api.hello import hello_bp # 导入 hello 蓝图（命名空间），目前仅包含测试接口
 from .api.auth import auth_bp
 from rec.api.rec_api_stub import rec_bp  # 新增导入
+from app.api.dish import dish_bp  # 新增导入
+from .api.feedback import feedback_bp
 import os
+
 
 def create_app():   # 应用工厂函数，返回配置完成的 Flask 应用实例
     app = Flask(__name__)
@@ -44,7 +47,9 @@ def create_app():   # 应用工厂函数，返回配置完成的 Flask 应用实
 
     # 注册命名空间
     api.add_namespace(hello_bp, path='/hello')
+    api.add_namespace(dish_bp, path='/api/v1/dish')
     api.add_namespace(rec_bp, path='/api/v1/rec')  # 新增推荐接口
     api.add_namespace(auth_bp, path='/api/v1/auth')
+    api.add_namespace(feedback_bp, path='/api/v1/feedback')
 
     return app  # 返回配置完成的应用实例，供 run.py 或 WSGI 服务器使用

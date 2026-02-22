@@ -1,0 +1,39 @@
+{
+  "experiment_id": "exp_2024_001",
+  "groups": {
+    "A": {
+      "name": "实验组（显示解释）",
+      "metrics": {
+        "mean": 4,
+        "median": 4.5,
+        "std": 1.41,
+        "count": 4,
+        "distribution": {
+          "5星": 2,
+          "4星": 1,
+          "3星": 0,
+          "2星": 1,
+          "1星": 0
+        }
+      },
+      "sample_size": 4
+    },
+    "B": {
+      "name": "对照组（隐藏解释）",
+      "metrics": {
+        "mean": 3.25,
+        "median": 3.0,
+        "std": 1.67,
+        "count": 8,
+        "distribution": {
+          "5星": 3,
+          "4星": 0,
+          "3星": 3,
+          "2星": 0,
+          "1星": 2
+        }
+      },
+      "sample_size": 8
+    }
+  }
+}

@@ -1,22 +1,18 @@
-# =============================================================================
-# 功能：用户认证接口（JWT登录）
-# 归属：week9-10 用户层任务
-# 下游：前端登录页面、推荐接口用户识别
-# =============================================================================
-
 from flask_restx import Namespace, Resource, fields
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
 from flask import current_app
 from py2neo import Graph
 import hashlib
+import os
 
 auth_bp = Namespace("auth", description="用户认证服务")
 
-# Neo4j 连接（与 rec_api_stub 一致）
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_AUTH = ("neo4j", "wwj@51816888")
+NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+NEO4J_AUTH = (
+    os.getenv("NEO4J_USER", "neo4j"),
+    os.getenv("NEO4J_PASSWORD", "wwj@51816888")
+)
 
-# Swagger 文档模型
 login_request = auth_bp.model('LoginRequest', {
     'username': fields.String(required=True, description='用户名'),
     'password': fields.String(required=True, description='密码')
@@ -37,7 +33,6 @@ user_response = auth_bp.model('UserResponse', {
 
 
 def get_user_by_username(username):
-    """根据用户名查询用户"""
     graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
     query = """
     MATCH (u:User {username: $username})
@@ -48,27 +43,21 @@ def get_user_by_username(username):
 
 
 def create_user(username, password):
-    """创建新用户"""
     graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
 
-    # 检查用户是否存在
     existing = get_user_by_username(username)
     if existing:
         return None, "用户名已存在"
 
-    # 密码哈希（简单 MD5，生产环境建议 bcrypt）
     password_hash = hashlib.md5(password.encode()).hexdigest()
 
-    # 获取当前最大 user_id（自定义字段，0-499）
-    max_id_query = "MATCH (u:User) RETURN max(u.user_id) as max_id"
+    max_id_query = "MATCH (u:User) RETURN coalesce(max(u.user_id), -1) as max_id"
     max_result = graph.run(max_id_query).data()
-    new_user_id = (max_result[0]['max_id'] or -1) + 1
+    new_user_id = max_result[0]['max_id'] + 1
 
-    # 检查是否超过 499
     if new_user_id >= 500:
         return None, "用户数量已达上限（500人）"
 
-    # 创建用户节点（使用自定义 user_id）
     query = """
     CREATE (u:User {
         user_id: $user_id,
@@ -99,8 +88,7 @@ class Register(Resource):
         if not user:
             auth_bp.abort(400, msg)
 
-        # 生成 JWT
-        access_token = create_access_token(identity=user['user_id'])
+        access_token = create_access_token(identity=str(user['user_id']))
 
         return {
             'access_token': access_token,
@@ -122,18 +110,15 @@ class Login(Resource):
         if not username or not password:
             auth_bp.abort(400, "用户名和密码不能为空")
 
-        # 查询用户
         user = get_user_by_username(username)
         if not user:
             auth_bp.abort(401, "用户名或密码错误")
 
-        # 验证密码
         password_hash = hashlib.md5(password.encode()).hexdigest()
         if password_hash != user['password_hash']:
             auth_bp.abort(401, "用户名或密码错误")
 
-        # 生成 JWT
-        access_token = create_access_token(identity=user['user_id'])
+        access_token = create_access_token(identity=str(user['user_id']))
 
         return {
             'access_token': access_token,
@@ -148,14 +133,17 @@ class Profile(Resource):
     @jwt_required()
     @auth_bp.marshal_with(user_response)
     def get(self):
-        """获取当前用户信息（需要JWT）"""
-        user_id = get_jwt_identity()
+        user_id_raw = get_jwt_identity()
+        try:
+            user_id = int(user_id_raw)
+        except (ValueError, TypeError):
+            auth_bp.abort(422, f"无效的 user_id: {user_id_raw}")
 
         graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
         query = """
-        MATCH (u:User) WHERE id(u) = $user_id
+        MATCH (u:User) WHERE u.user_id = $user_id
         OPTIONAL MATCH (u)-[:INTERACTED]->(d:Dish)
-        RETURN id(u) as user_id, u.username as username, count(d) as history_count
+        RETURN u.user_id as user_id, u.username as username, count(d) as history_count
         """
         result = graph.run(query, user_id=user_id).data()
 

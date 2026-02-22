@@ -22,7 +22,7 @@ graph.run("MATCH (n) DETACH DELETE n")  # 清空旧数据（调试用）
 
 for m in menu:   # 遍历每道菜品
     dish = Node("Dish", name=m['dish'], price=m['price'], file=m['file'], note=m['note'])        # 创建 Dish 类型节点，包含名称、价格、照片、备注属性
-    graph.create(dish)      # 立即创建节点（非幂等，若重复运行会创建重复节点，但前面已清空）
+    graph.merge(dish, "Dish", "name")      # 幂等：name 相同则复用
     for t in m['tags']:
         tag = Node("Tag", name=t)   # 创建 Tag 类型节点
         graph.merge(tag, "Tag", "name")   # 幂等创建：若 name 属性相同的 Tag 已存在则复用，否则新建

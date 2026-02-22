@@ -1,0 +1,12 @@
+{"timestamp": "2026-02-22T11:42:50.327826", "user_id": "17", "group": "A", "dish_id": 901, "rating": 4, "clicked": true, "comment": "一般"}
+{"timestamp": "2026-02-22T11:44:05.879709", "user_id": "17", "group": "A", "dish_id": 1273, "rating": 5, "clicked": true, "comment": "好吃"}
+{"timestamp": "2026-02-22T11:44:25.407151", "user_id": "17", "group": "A", "dish_id": 1353, "rating": 2, "clicked": true, "comment": "难吃"}
+{"timestamp": "2026-02-22T11:45:40.445501", "user_id": "2", "group": "B", "dish_id": 1253, "rating": 3, "clicked": true, "comment": "中规中矩"}
+{"timestamp": "2026-02-22T11:46:09.524670", "user_id": "2", "group": "B", "dish_id": 1512, "rating": 5, "clicked": true, "comment": "神中神"}
+{"timestamp": "2026-02-22T11:47:05.608276", "user_id": "2", "group": "B", "dish_id": 1273, "rating": 3, "clicked": true, "comment": "一般"}
+{"timestamp": "2026-02-22T11:47:35.455097", "user_id": "2", "group": "B", "dish_id": 901, "rating": 5, "clicked": true, "comment": "不错"}
+{"timestamp": "2026-02-22T11:48:53.399046", "user_id": "21", "group": "B", "dish_id": 1512, "rating": 1, "clicked": true, "comment": "难吃"}
+{"timestamp": "2026-02-22T11:49:41.237941", "user_id": "21", "group": "B", "dish_id": 901, "rating": 1, "clicked": true, "comment": "难吃"}
+{"timestamp": "2026-02-22T11:50:06.568158", "user_id": "21", "group": "B", "dish_id": 1353, "rating": 5, "clicked": true, "comment": ""}
+{"timestamp": "2026-02-22T11:50:28.246191", "user_id": "21", "group": "B", "dish_id": 1273, "rating": 3, "clicked": true, "comment": ""}
+{"timestamp": "2026-02-22T13:47:21.460851", "user_id": "16", "group": "A", "dish_id": 1171, "rating": 5, "clicked": true, "comment": "😋"}

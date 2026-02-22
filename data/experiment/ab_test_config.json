@@ -1,0 +1,57 @@
+{
+  "experiment_id": "exp_2024_001",
+  "description": "可解释推荐 vs 无解释推荐 对比实验",
+  "groups": {
+    "A": {
+      "name": "实验组（有解释）",
+      "user_ids": [
+        20,
+        15,
+        11,
+        27,
+        23,
+        7,
+        6,
+        13,
+        12,
+        16,
+        10,
+        26,
+        30,
+        22,
+        17
+      ],
+      "show_explanation": true,
+      "sample_size": 15
+    },
+    "B": {
+      "name": "对照组（无解释）",
+      "user_ids": [
+        28,
+        2,
+        14,
+        19,
+        3,
+        18,
+        29,
+        5,
+        25,
+        8,
+        9,
+        24,
+        1,
+        4,
+        21
+      ],
+      "show_explanation": false,
+      "sample_size": 15
+    }
+  },
+  "metrics": [
+    "click_rate",
+    "satisfaction",
+    "diversity_score"
+  ],
+  "start_date": "2024-03-01",
+  "end_date": "2024-03-15"
+}
