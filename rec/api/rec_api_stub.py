@@ -10,7 +10,7 @@ import hashlib
 import pickle
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from algo.ucpr_light import ent_emb, n_users, EMB, device
+from algo.ucpr_light import UCPRModel, n_users, device
 from algo.path_sampler import PathSampler
 
 rec_bp = Namespace("rec", description="菜品推荐服务")
@@ -54,7 +54,7 @@ rec_response = rec_bp.model('RecResponse', {
     'user_id': fields.Integer(description='用户ID'),
     'topk': fields.Integer(description='实际推荐数量'),
     'from_cache': fields.Boolean(description='是否来自缓存'),
-    'experiment_group': fields.String(description='A/B测试分组: A(实验组)或B(对照组)'),
+    'experiment_group': fields.String(description='A/B测试分组'),
     'show_explanation': fields.Boolean(description='是否显示解释'),
     'recommendations': fields.List(fields.Nested(rec_item))
 })
@@ -143,15 +143,60 @@ def format_path_explanation(paths, target_name):
     for path in paths[:2]:
         if len(path) >= 2:
             rels = [p[0] for p in path]
+            entities = [p[1] for p in path]
             if 'HAS_TAG' in rels:
-                tag = path[0][1] if len(path) > 0 else ""
+                tag = entities[0] if len(entities) > 0 else ""
                 explanations.append(f"同属「{tag}」口味")
             elif 'CONTAINS' in rels:
-                ing = path[0][1] if len(path) > 0 else ""
+                ing = entities[0] if len(entities) > 0 else ""
                 explanations.append(f"都含有「{ing}」食材")
     if explanations:
         return "，".join(explanations) + f" → {target_name}"
     return "基于知识图谱路径推理推荐"
+
+
+# 全局模型缓存
+_model = None
+_model_loaded = False
+
+
+def load_model():
+    """加载UCPR-BPR模型"""
+    global _model, _model_loaded
+
+    if _model_loaded:
+        return _model
+
+    cache_dir = os.path.join(os.path.dirname(__file__), '../algo/cache')
+    node_map = pickle.load(open('rec/algo/cache/node_map.pkl', 'rb'))
+    n_nodes = len(node_map)
+    n_relations = 2  # HAS_TAG, CONTAINS
+
+    _model = UCPRModel(n_nodes, n_relations, 32).to(device)
+
+    # 优先加载BPR模型，否则回退到旧模型
+    bpr_path = os.path.join(cache_dir, 'ent_emb_bpr.pth')
+    old_path = os.path.join(cache_dir, 'ent_emb.pth')
+
+    if os.path.exists(bpr_path):
+        _model.ent_emb.load_state_dict(torch.load(bpr_path, map_location=device))
+        print(f"[REC] 加载BPR模型: {bpr_path}", flush=True)
+    elif os.path.exists(old_path):
+        _model.ent_emb.load_state_dict(torch.load(old_path, map_location=device))
+        print(f"[REC] 加载旧模型: {old_path}", flush=True)
+    else:
+        raise FileNotFoundError("模型文件未找到")
+
+    # 加载关系嵌入
+    rel_path = os.path.join(cache_dir, 'rel_emb_bpr.pth')
+    if not os.path.exists(rel_path):
+        rel_path = os.path.join(cache_dir, 'rel_emb.pth')
+    if os.path.exists(rel_path):
+        _model.rel_emb.load_state_dict(torch.load(rel_path, map_location=device))
+
+    _model.eval()
+    _model_loaded = True
+    return _model
 
 
 @rec_bp.route("/")
@@ -168,7 +213,7 @@ class Recommend(Resource):
 
         # 获取A/B测试分组
         group = get_user_group(user_id)
-        show_explanation = (group == 'A')  # A组显示解释，B组不显示
+        show_explanation = (group == 'A')
 
         from app.extensions import redis_client
         cache_key = get_cache_key(user_id, topk)
@@ -180,15 +225,11 @@ class Recommend(Resource):
             cached_result['show_explanation'] = show_explanation
             return cached_result
 
-        cache_dir = os.path.join(os.path.dirname(__file__), '../algo/cache')
+        # 加载模型（首次调用）
         try:
-            ent_emb.load_state_dict(torch.load(
-                os.path.join(cache_dir, 'ent_emb.pth'),
-                map_location=device
-            ))
-            ent_emb.eval()
-        except FileNotFoundError:
-            rec_bp.abort(500, "模型文件未找到")
+            model = load_model()
+        except FileNotFoundError as e:
+            rec_bp.abort(500, str(e))
 
         global dish_id_to_name
         if not dish_id_to_name:
@@ -196,10 +237,19 @@ class Recommend(Resource):
 
         path_sampler = PathSampler()
 
-        n_items = ent_emb.weight.shape[0] - n_users
+        # BPR推理
+        n_items = model.ent_emb.weight.shape[0] - n_users
         with torch.no_grad():
-            user_vec = ent_emb(torch.LongTensor([user_id]))
-            all_scores = torch.sum(user_vec + ent_emb.weight[n_users:], dim=1)
+            user_tensor = torch.LongTensor([user_id] * n_items).to(device)
+            items_tensor = torch.LongTensor(list(range(n_users, n_users + n_items))).to(device)
+            rel_tensor = torch.LongTensor([0] * n_items).to(device)
+
+            u = model.ent_emb(user_tensor)
+            r = model.rel_emb(rel_tensor)
+            item_emb = model.ent_emb(items_tensor)
+
+            all_scores = -torch.norm(u + r - item_emb, dim=1)
+
             actual_topk = min(topk * 3, n_items)
             topk_values, topk_indices = torch.topk(all_scores, actual_topk)
 
@@ -231,15 +281,18 @@ class Recommend(Resource):
                     cont_id = cid
                     break
 
-            # A/B测试：A组采样路径并显示解释，B组跳过路径采样
+            # A/B测试：A组采样路径并显示解释，B组跳过
             if show_explanation:
                 paths = path_sampler.sample_paths_for_user_item(user_id, name)
+                # 计算多样性指标
+                diversity = path_sampler.compute_path_diversity_v2(paths)
                 explanation = format_path_explanation(paths, name)
                 path_data = [
                     {
                         'relations': [p[0] for p in path],
                         'entities': [p[1] for p in path],
-                        'pattern': path_sampler.get_path_pattern(path)
+                        'pattern': path_sampler.get_path_pattern(path),
+                        'diversity_score': diversity
                     } for path in paths[:3]
                 ]
             else:
