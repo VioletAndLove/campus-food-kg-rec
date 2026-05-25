@@ -1,5 +1,5 @@
 from flask_restx import Namespace, Resource, fields
-from flask_jwt_extended import jwt_required, get_jwt_identity
+from flask import session
 from datetime import datetime
 import json
 import os
@@ -8,18 +8,21 @@ feedback_bp = Namespace("feedback", description="用户反馈收集")
 
 feedback_model = feedback_bp.model('Feedback', {
     'dish_id': fields.Integer(required=True),
-    'rating': fields.Integer(min=1, max=5, required=True, description='满意度 1-5'),
-    'clicked': fields.Boolean(default=True, description='是否点击'),
-    'comment': fields.String(description='可选评论')
+    'rating': fields.Integer(min=1, max=5, required=True),
+    'clicked': fields.Boolean(default=True),
+    'comment': fields.String
 })
 
 
 @feedback_bp.route("/")
 class Feedback(Resource):
-    @jwt_required()
     @feedback_bp.expect(feedback_model)
     def post(self):
-        user_id = get_jwt_identity()
+        """记录用户对推荐的反馈"""
+        user_id = session.get('user_id')
+        if user_id is None:
+            return {"msg": "请先登录"}, 401
+
         data = feedback_bp.payload
 
         # 加载实验分组
@@ -42,7 +45,6 @@ class Feedback(Resource):
             'comment': data.get('comment', '')
         }
 
-        # 追加写入文件（简单实现，生产环境用数据库）
         log_file = 'data/experiment/feedback_log.jsonl'
         os.makedirs(os.path.dirname(log_file), exist_ok=True)
         with open(log_file, 'a', encoding='utf-8') as f:

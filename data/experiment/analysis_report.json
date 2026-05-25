@@ -4,36 +4,36 @@
     "A": {
       "name": "实验组（显示解释）",
       "metrics": {
-        "mean": 4.05,
+        "mean": 3.89,
         "median": 4,
-        "std": 0.86,
-        "count": 21,
+        "std": 0.99,
+        "count": 37,
         "distribution": {
-          "5星": 7,
-          "4星": 9,
-          "3星": 4,
-          "2星": 1,
-          "1星": 0
-        }
-      },
-      "sample_size": 21
-    },
-    "B": {
-      "name": "对照组（隐藏解释）",
-      "metrics": {
-        "mean": 3.57,
-        "median": 4,
-        "std": 1.16,
-        "count": 21,
-        "distribution": {
-          "5星": 5,
-          "4星": 6,
+          "5星": 10,
+          "4星": 17,
           "3星": 8,
           "2星": 0,
           "1星": 2
         }
       },
-      "sample_size": 21
+      "sample_size": 37
+    },
+    "B": {
+      "name": "对照组（隐藏解释）",
+      "metrics": {
+        "mean": 3.89,
+        "median": 4.0,
+        "std": 0.82,
+        "count": 36,
+        "distribution": {
+          "5星": 9,
+          "4星": 15,
+          "3星": 11,
+          "2星": 1,
+          "1星": 0
+        }
+      },
+      "sample_size": 36
     }
   }
 }

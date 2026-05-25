@@ -1,6 +1,5 @@
 from flask_restx import Namespace, Resource, fields
-from flask_jwt_extended import create_access_token, jwt_required, get_jwt_identity
-from flask import current_app
+from flask import session, request
 from py2neo import Graph
 import hashlib
 import os
@@ -19,7 +18,6 @@ login_request = auth_bp.model('LoginRequest', {
 })
 
 login_response = auth_bp.model('LoginResponse', {
-    'access_token': fields.String(description='JWT访问令牌'),
     'user_id': fields.Integer(description='用户ID'),
     'username': fields.String(description='用户名'),
     'msg': fields.String(description='消息')
@@ -28,6 +26,7 @@ login_response = auth_bp.model('LoginResponse', {
 user_response = auth_bp.model('UserResponse', {
     'user_id': fields.Integer(description='用户ID'),
     'username': fields.String(description='用户名'),
+    'is_logged_in': fields.Boolean(description='登录状态'),
     'history_count': fields.Integer(description='历史记录数量')
 })
 
@@ -72,6 +71,23 @@ def create_user(username, password):
     return result[0], "注册成功"
 
 
+def get_current_user():
+    """获取当前登录用户"""
+    if 'user_id' in session:
+        return {
+            'user_id': session.get('user_id'),
+            'username': session.get('username')
+        }
+    return None
+
+
+def login_required():
+    """检查是否登录的装饰器辅助函数"""
+    if 'user_id' not in session:
+        return False
+    return True
+
+
 @auth_bp.route("/register")
 class Register(Resource):
     @auth_bp.expect(login_request)
@@ -84,17 +100,22 @@ class Register(Resource):
         if not username or not password:
             auth_bp.abort(400, "用户名和密码不能为空")
 
+        if len(username) < 3 or len(password) < 6:
+            auth_bp.abort(400, "用户名至少3位，密码至少6位")
+
         user, msg = create_user(username, password)
         if not user:
             auth_bp.abort(400, msg)
 
-        access_token = create_access_token(identity=str(user['user_id']))
+        # 自动登录
+        session.permanent = True
+        session['user_id'] = user['user_id']
+        session['username'] = user['username']
 
         return {
-            'access_token': access_token,
             'user_id': user['user_id'],
             'username': user['username'],
-            'msg': '注册成功'
+            'msg': '注册成功并自动登录'
         }
 
 
@@ -118,36 +139,52 @@ class Login(Resource):
         if password_hash != user['password_hash']:
             auth_bp.abort(401, "用户名或密码错误")
 
-        access_token = create_access_token(identity=str(user['user_id']))
+        # 设置Session
+        session.permanent = True
+        session['user_id'] = user['user_id']
+        session['username'] = user['username']
 
         return {
-            'access_token': access_token,
             'user_id': user['user_id'],
             'username': user['username'],
             'msg': '登录成功'
         }
 
 
-@auth_bp.route("/profile")
-class Profile(Resource):
-    @jwt_required()
+@auth_bp.route("/logout")
+class Logout(Resource):
+    def post(self):
+        """退出登录"""
+        session.clear()
+        return {'msg': '已退出登录'}
+
+
+@auth_bp.route("/status")
+class AuthStatus(Resource):
     @auth_bp.marshal_with(user_response)
     def get(self):
-        user_id_raw = get_jwt_identity()
-        try:
-            user_id = int(user_id_raw)
-        except (ValueError, TypeError):
-            auth_bp.abort(422, f"无效的 user_id: {user_id_raw}")
+        """检查当前登录状态"""
+        user = get_current_user()
+        if user:
+            # 获取历史记录数量
+            graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
+            query = """
+            MATCH (u:User {user_id: $user_id})-[:INTERACTED]->(d:Dish)
+            RETURN count(d) as history_count
+            """
+            result = graph.run(query, user_id=user['user_id']).data()
+            history_count = result[0]['history_count'] if result else 0
 
-        graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
-        query = """
-        MATCH (u:User) WHERE u.user_id = $user_id
-        OPTIONAL MATCH (u)-[:INTERACTED]->(d:Dish)
-        RETURN u.user_id as user_id, u.username as username, count(d) as history_count
-        """
-        result = graph.run(query, user_id=user_id).data()
+            return {
+                'user_id': user['user_id'],
+                'username': user['username'],
+                'is_logged_in': True,
+                'history_count': history_count
+            }
 
-        if not result:
-            auth_bp.abort(404, "用户不存在")
-
-        return result[0]
+        return {
+            'user_id': 0,
+            'username': '',
+            'is_logged_in': False,
+            'history_count': 0
+        }

@@ -1,9 +1,9 @@
 {
   "model": "UCPR-BPR",
   "topk": 10,
-  "hr_at_k": 0.99,
-  "ndcg_at_k": 0.6198,
-  "mrr": 0.9316,
+  "hr_at_k": 0.96,
+  "ndcg_at_k": 0.5344,
+  "mrr": 0.8684,
   "diversity_at_k": 1.0,
   "n_test_users": 500
 }

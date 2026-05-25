@@ -1,19 +1,41 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/HomeView.vue'
-import DishDetail from '../views/DishDetail.vue'
-import History from '../views/History.vue'
-import Profile from '../views/Profile.vue'
-import Login from '../views/Login.vue'  // 新增
+import HomeView from '../views/HomeView.vue'
 
-const routes = [
-  { path: '/', name: 'Home', component: Home },
-  { path: '/dish/:id', name: 'DishDetail', component: DishDetail, props: true },
-  { path: '/history', name: 'History', component: History },
-  { path: '/profile', name: 'Profile', component: Profile },
-  { path: '/login', name: 'Login', component: Login }  // 新增
-]
-
-export default createRouter({
-  history: createWebHistory(),
-  routes
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: HomeView,
+      meta: { keepAlive: true }
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/Login.vue')
+    },
+    {
+      path: '/dish/:id',
+      name: 'dish-detail',
+      component: () => import('../views/DishDetail.vue')
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: () => import('../views/History.vue')
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import('../views/Profile.vue')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('../views/AboutView.vue')
+    }
+  ]
 })
+
+export default router

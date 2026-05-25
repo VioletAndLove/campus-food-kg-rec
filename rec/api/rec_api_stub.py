@@ -1,6 +1,6 @@
 from flask_restx import Namespace, Resource, fields
 from py2neo import Graph
-from flask import current_app
+from flask import current_app, session
 import torch
 import pandas as pd
 import os
@@ -24,44 +24,40 @@ NEO4J_AUTH = (
 CACHE_TTL = 15 * 60
 dish_id_to_name = {}
 
-# 加载 A/B 测试分组配置
 try:
     with open('data/experiment/user_group_map.json', 'r', encoding='utf-8') as f:
         user_group_map = json.load(f)
-    print(f"[REC] 加载 A/B 分组配置: {len(user_group_map)} 个用户", flush=True)
 except Exception as e:
-    print(f"[REC] 加载 A/B 分组配置失败: {e}", flush=True)
     user_group_map = {}
 
 rec_request = rec_bp.model('RecRequest', {
-    'user_id': fields.Integer(required=True, description='用户ID'),
-    'topk': fields.Integer(default=10, min=1, max=50, description='推荐数量')
+    'user_id': fields.Integer(required=True),
+    'topk': fields.Integer(default=10, min=1, max=50)
 })
 
 rec_item = rec_bp.model('RecItem', {
-    'dish_id': fields.Integer(description='菜品实体ID'),
-    'dish_name': fields.String(description='菜品名称'),
-    'price': fields.Integer(description='价格'),
-    'tags': fields.List(fields.String, description='口味标签'),
-    'ingredients': fields.List(fields.String, description='食材'),
-    'photo': fields.String(description='照片文件名'),
-    'score': fields.Float(description='推荐分数'),
-    'explanation': fields.String(description='推荐解释'),
-    'paths': fields.List(fields.Raw, description='推理路径列表')
+    'dish_id': fields.Integer,
+    'dish_name': fields.String,
+    'price': fields.Integer,
+    'tags': fields.List(fields.String),
+    'ingredients': fields.List(fields.String),
+    'photo': fields.String,
+    'score': fields.Float,
+    'explanation': fields.String,
+    'paths': fields.List(fields.Raw)
 })
 
 rec_response = rec_bp.model('RecResponse', {
-    'user_id': fields.Integer(description='用户ID'),
-    'topk': fields.Integer(description='实际推荐数量'),
-    'from_cache': fields.Boolean(description='是否来自缓存'),
-    'experiment_group': fields.String(description='A/B测试分组'),
-    'show_explanation': fields.Boolean(description='是否显示解释'),
+    'user_id': fields.Integer,
+    'topk': fields.Integer,
+    'from_cache': fields.Boolean,
+    'experiment_group': fields.String,
+    'show_explanation': fields.Boolean,
     'recommendations': fields.List(fields.Nested(rec_item))
 })
 
 
 def get_user_group(user_id):
-    """获取用户A/B测试分组，默认B组"""
     return user_group_map.get(str(user_id), 'B')
 
 
@@ -76,7 +72,6 @@ def load_dish_mapping():
         for neo_id, cont_id in node_map.items():
             if neo_id in neo_id_to_name:
                 dish_id_to_name[cont_id] = neo_id_to_name[neo_id]
-        current_app.logger.info(f"加载了 {len(dish_id_to_name)} 个 dish 映射")
     except Exception as e:
         current_app.logger.error(f"加载 dish 映射失败: {e}")
 
@@ -143,51 +138,43 @@ def format_path_explanation(paths, target_name):
     for path in paths[:2]:
         if len(path) >= 2:
             rels = [p[0] for p in path]
-            entities = [p[1] for p in path]
             if 'HAS_TAG' in rels:
-                tag = entities[0] if len(entities) > 0 else ""
+                tag = path[0][1] if len(path) > 0 else ""
                 explanations.append(f"同属「{tag}」口味")
             elif 'CONTAINS' in rels:
-                ing = entities[0] if len(entities) > 0 else ""
+                ing = path[0][1] if len(path) > 0 else ""
                 explanations.append(f"都含有「{ing}」食材")
     if explanations:
         return "，".join(explanations) + f" → {target_name}"
     return "基于知识图谱路径推理推荐"
 
 
-# 全局模型缓存
 _model = None
 _model_loaded = False
 
 
 def load_model():
-    """加载UCPR-BPR模型"""
     global _model, _model_loaded
-
     if _model_loaded:
         return _model
 
     cache_dir = os.path.join(os.path.dirname(__file__), '../algo/cache')
     node_map = pickle.load(open('rec/algo/cache/node_map.pkl', 'rb'))
     n_nodes = len(node_map)
-    n_relations = 2  # HAS_TAG, CONTAINS
+    n_relations = 2
 
     _model = UCPRModel(n_nodes, n_relations, 32).to(device)
 
-    # 优先加载BPR模型，否则回退到旧模型
     bpr_path = os.path.join(cache_dir, 'ent_emb_bpr.pth')
     old_path = os.path.join(cache_dir, 'ent_emb.pth')
 
     if os.path.exists(bpr_path):
         _model.ent_emb.load_state_dict(torch.load(bpr_path, map_location=device))
-        print(f"[REC] 加载BPR模型: {bpr_path}", flush=True)
     elif os.path.exists(old_path):
         _model.ent_emb.load_state_dict(torch.load(old_path, map_location=device))
-        print(f"[REC] 加载旧模型: {old_path}", flush=True)
     else:
         raise FileNotFoundError("模型文件未找到")
 
-    # 加载关系嵌入
     rel_path = os.path.join(cache_dir, 'rel_emb_bpr.pth')
     if not os.path.exists(rel_path):
         rel_path = os.path.join(cache_dir, 'rel_emb.pth')
@@ -208,10 +195,17 @@ class Recommend(Resource):
         user_id = data.get('user_id')
         topk = data.get('topk', 10)
 
-        if user_id is None or not (0 <= user_id < n_users):
+        # 验证session
+        session_user_id = session.get('user_id')
+        if session_user_id is None:
+            rec_bp.abort(401, "请先登录")
+
+        if int(session_user_id) != int(user_id):
+            rec_bp.abort(403, "无权访问其他用户数据")
+
+        if not (0 <= user_id < n_users):
             rec_bp.abort(400, f"无效user_id: {user_id}")
 
-        # 获取A/B测试分组
         group = get_user_group(user_id)
         show_explanation = (group == 'A')
 
@@ -225,7 +219,6 @@ class Recommend(Resource):
             cached_result['show_explanation'] = show_explanation
             return cached_result
 
-        # 加载模型（首次调用）
         try:
             model = load_model()
         except FileNotFoundError as e:
@@ -237,7 +230,6 @@ class Recommend(Resource):
 
         path_sampler = PathSampler()
 
-        # BPR推理
         n_items = model.ent_emb.weight.shape[0] - n_users
         with torch.no_grad():
             user_tensor = torch.LongTensor([user_id] * n_items).to(device)
@@ -281,10 +273,8 @@ class Recommend(Resource):
                     cont_id = cid
                     break
 
-            # A/B测试：A组采样路径并显示解释，B组跳过
             if show_explanation:
                 paths = path_sampler.sample_paths_for_user_item(user_id, name)
-                # 计算多样性指标
                 diversity = path_sampler.compute_path_diversity_v2(paths)
                 explanation = format_path_explanation(paths, name)
                 path_data = [
@@ -325,8 +315,5 @@ class Recommend(Resource):
         }
 
         set_cache(redis_client, cache_key, result)
-
-        if len(recommendations) < topk:
-            current_app.logger.warning(f"推荐数量不足：请求 {topk}，实际返回 {len(recommendations)}")
 
         return result
