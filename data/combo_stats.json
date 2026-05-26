@@ -1,0 +1,375 @@
+{
+  "summary": {
+    "total_users_analyzed": 500,
+    "total_interactions": 7487,
+    "avg_combo_price": 176.57,
+    "median_combo_price": 177.0,
+    "avg_dishes_per_user": 15.0
+  },
+  "top_pairs": [
+    {
+      "dishes": [
+        "和乐蟹",
+        "宣威火腿"
+      ],
+      "co_occurrence": 7
+    },
+    {
+      "dishes": [
+        "宣威火腿",
+        "四喜烤麸"
+      ],
+      "co_occurrence": 7
+    },
+    {
+      "dishes": [
+        "南昌拌粉",
+        "双酿团"
+      ],
+      "co_occurrence": 6
+    },
+    {
+      "dishes": [
+        "四川回锅肉",
+        "大庆扒鸡"
+      ],
+      "co_occurrence": 6
+    },
+    {
+      "dishes": [
+        "野生菌火锅",
+        "成都麻婆豆腐"
+      ],
+      "co_occurrence": 6
+    },
+    {
+      "dishes": [
+        "九江茶饼",
+        "宣威火腿"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "云南饵块",
+        "重庆水煮鱼"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "河北驴打滚",
+        "宜宾燃面"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "口味虾",
+        "成都麻婆豆腐"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "重庆水煮鱼",
+        "武昌鱼"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "烤羊肉串",
+        "湖南酱板鸭"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "宣威火腿",
+        "宜宾燃面"
+      ],
+      "co_occurrence": 5
+    },
+    {
+      "dishes": [
+        "烤羊肉串",
+        "成都麻婆豆腐"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "湖南酱板鸭",
+        "华工五山毛豆炒鸡丁"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "鄱阳湖胖鱼头",
+        "德式烤猪肘"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "青海手抓羊肉",
+        "甜醅"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "鄱阳湖胖鱼头",
+        "塔里木大学校本部干煸豆角"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "荆州鱼糕",
+        "青海手抓羊肉"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "浙大紫金港糖醋排骨",
+        "东北大学本部东坡肉"
+      ],
+      "co_occurrence": 4
+    },
+    {
+      "dishes": [
+        "排骨年糕",
+        "烤羊肉串"
+      ],
+      "co_occurrence": 4
+    }
+  ],
+  "top_triples": [
+    {
+      "dishes": [
+        "和乐蟹",
+        "宣威火腿",
+        "鸡汁百叶包"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "闽南醋肉",
+        "南昌拌粉",
+        "双酿团"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "排骨年糕",
+        "烤羊肉串",
+        "叫化童鸡"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "四川回锅肉",
+        "北大燕南梅菜扣肉",
+        "贵大东校区蟹黄豆腐"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "荔浦芋扣肉",
+        "野生菌火锅",
+        "炒米"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "宜宾燃面",
+        "东北地三鲜",
+        "中山大学松涛园盐水鸭"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "云南饵块",
+        "酱骨头",
+        "西藏藏大河坝林红烧狮子头"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "青海手抓羊肉",
+        "炒米",
+        "北邮沙河盐水鸭"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "乐山钵钵鸡",
+        "湖北热干面",
+        "糖醋藕片"
+      ],
+      "co_occurrence": 3
+    },
+    {
+      "dishes": [
+        "老上海焖蹄面",
+        "四川回锅肉",
+        "四喜烤麸"
+      ],
+      "co_occurrence": 3
+    }
+  ],
+  "top_tag_pairs": [
+    {
+      "tags": [
+        "咸鲜",
+        "微辣"
+      ],
+      "co_occurrence": 327
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "甜咸"
+      ],
+      "co_occurrence": 309
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "酸辣"
+      ],
+      "co_occurrence": 300
+    },
+    {
+      "tags": [
+        "微辣",
+        "甜咸"
+      ],
+      "co_occurrence": 290
+    },
+    {
+      "tags": [
+        "微辣",
+        "酸辣"
+      ],
+      "co_occurrence": 275
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "酱香"
+      ],
+      "co_occurrence": 269
+    },
+    {
+      "tags": [
+        "甜咸",
+        "酸辣"
+      ],
+      "co_occurrence": 261
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "麻辣"
+      ],
+      "co_occurrence": 255
+    },
+    {
+      "tags": [
+        "微辣",
+        "酱香"
+      ],
+      "co_occurrence": 253
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "鲜咸"
+      ],
+      "co_occurrence": 233
+    },
+    {
+      "tags": [
+        "微辣",
+        "鲜咸"
+      ],
+      "co_occurrence": 226
+    },
+    {
+      "tags": [
+        "微辣",
+        "麻辣"
+      ],
+      "co_occurrence": 226
+    },
+    {
+      "tags": [
+        "甜咸",
+        "麻辣"
+      ],
+      "co_occurrence": 223
+    },
+    {
+      "tags": [
+        "酱香",
+        "酸辣"
+      ],
+      "co_occurrence": 222
+    },
+    {
+      "tags": [
+        "甜咸",
+        "酱香"
+      ],
+      "co_occurrence": 221
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "孜然"
+      ],
+      "co_occurrence": 217
+    },
+    {
+      "tags": [
+        "酸辣",
+        "鲜咸"
+      ],
+      "co_occurrence": 212
+    },
+    {
+      "tags": [
+        "咸鲜",
+        "干香"
+      ],
+      "co_occurrence": 212
+    },
+    {
+      "tags": [
+        "甜咸",
+        "鲜咸"
+      ],
+      "co_occurrence": 208
+    },
+    {
+      "tags": [
+        "酸辣",
+        "麻辣"
+      ],
+      "co_occurrence": 208
+    }
+  ]
+}

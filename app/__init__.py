@@ -17,6 +17,7 @@ from app.api.dish import dish_bp
 from app.api.history import history_bp
 from app.api.profile import profile_bp
 from .api.feedback import feedback_bp
+from app.api.combo import combo_bp
 import os
 
 
@@ -52,5 +53,6 @@ def create_app():
     api.add_namespace(feedback_bp, path='/api/v1/feedback')
     api.add_namespace(history_bp, path='/api/v1/history')
     api.add_namespace(profile_bp, path='/api/v1/profile')
+    api.add_namespace(combo_bp, path='/api/v1/dish')
 
     return app

@@ -93,6 +93,63 @@
               </div>
             </div>
           </div>
+
+          <!-- 智能搭配 -->
+          <div class="combo-section" v-if="combo.combo_items?.length > 0">
+            <h4>
+              <el-icon><Dish /></el-icon>
+              智能搭配
+            </h4>
+            <el-alert :title="combo.explanation" type="warning" :closable="false" show-icon />
+
+            <div class="combo-list">
+              <!-- 主菜（当前菜品） -->
+              <div class="combo-card main-card">
+                <div class="combo-image">
+                  <img v-if="combo.main_dish?.photo" :src="getImageUrl(combo.main_dish.photo)" />
+                  <div v-else class="combo-placeholder"><el-icon><Food /></el-icon></div>
+                </div>
+                <div class="combo-info">
+                  <div class="combo-name">{{ combo.main_dish?.name }}</div>
+                  <div class="combo-price">¥{{ combo.main_dish?.price }}</div>
+                  <el-tag size="small" type="success">主菜</el-tag>
+                </div>
+              </div>
+
+              <div class="combo-plus">+</div>
+
+              <!-- 推荐配菜 -->
+              <div
+                v-for="item in combo.combo_items"
+                :key="item.dish_id"
+                class="combo-card"
+                @click="goToDetail(item.dish_id)"
+              >
+                <div class="combo-image">
+                  <img v-if="item.photo" :src="getImageUrl(item.photo)" />
+                  <div v-else class="combo-placeholder"><el-icon><Food /></el-icon></div>
+                </div>
+                <div class="combo-info">
+                  <div class="combo-name">{{ item.name }}</div>
+                  <div class="combo-price">¥{{ item.price }}</div>
+                  <el-tag size="small" type="info" effect="light">{{ item.reason }}</el-tag>
+                  <div class="combo-meta">
+                    <el-rate :model-value="item.avg_rating" disabled size="small" />
+                    <span class="combo-co" v-if="item.co_occurrence > 0">{{ item.co_occurrence }}人同选</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="combo-summary">
+              <span class="combo-total">
+                套餐总价: <strong>¥{{ combo.total_price }}</strong>
+              </span>
+              <span class="combo-budget" v-if="combo.budget">
+                / 预算 ¥{{ combo.budget }}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -146,8 +203,14 @@
             </div>
             <p class="comment-content">{{ comment.content }}</p>
             <div class="comment-actions">
-              <el-button link :icon="CaretTop" @click="likeComment(comment)">
-                有用 ({{ comment.likes }})
+              <el-button
+                link
+                :icon="CaretTop"
+                :type="comment.is_liked ? 'primary' : 'default'"
+                :disabled="comment.is_liked"
+                @click="likeComment(comment)"
+              >
+                {{ comment.is_liked ? '已赞' : '有用' }} ({{ comment.likes }})
               </el-button>
             </div>
           </div>
@@ -177,7 +240,7 @@
           <el-rate
             v-model="commentForm.rating"
             show-score
-            allow-half
+            :max="5"
             size="large"
           />
         </el-form-item>
@@ -217,7 +280,7 @@ import axios from 'axios'
 import { ElMessage } from 'element-plus'
 import {
   ArrowLeft, Share, Star, Food, CircleCheck, MagicStick,
-  ChatDotRound, UserFilled, CaretTop
+  ChatDotRound, UserFilled, CaretTop, Dish
 } from '@element-plus/icons-vue'
 
 const route = useRoute()
@@ -230,6 +293,11 @@ const commentsLoading = ref(false)
 const showCommentDialog = ref(false)
 const submitting = ref(false)
 const commentFormRef = ref(null)
+const commentPage = ref(2)
+const commentTotalPages = ref(1)
+const ratingDistributionData = ref([])
+const combo = ref({ combo_items: [] })
+const comboLoading = ref(false)
 
 const commentForm = reactive({
   rating: 5,
@@ -245,8 +313,11 @@ const commentRules = {
   ]
 }
 
-// 计算评分统计
+// 计算评分统计（优先使用后端返回的分布数据）
 const ratingStats = computed(() => {
+  if (ratingDistributionData.value.length > 0) {
+    return ratingDistributionData.value
+  }
   if (!dish.value?.comments?.length) return []
 
   const stats = { 5: 0, 4: 0, 3: 0, 2: 0, 1: 0 }
@@ -306,6 +377,19 @@ const toggleFavorite = () => {
   ElMessage.success('收藏功能开发中')
 }
 
+const goToDetail = (dishId) => {
+  if (!dishId || dishId === -1) {
+    ElMessage.warning('菜品信息不完整')
+    return
+  }
+  const id = parseInt(dishId)
+  if (isNaN(id)) {
+    ElMessage.error('无效的菜品ID')
+    return
+  }
+  router.push(`/dish/${id}`)
+}
+
 const submitComment = async () => {
   const valid = await commentFormRef.value?.validate().catch(() => false)
   if (!valid) return
@@ -335,19 +419,46 @@ const submitComment = async () => {
   }
 }
 
-const likeComment = (comment) => {
-  ElMessage.success('点赞成功')
-  comment.likes++
+const likeComment = async (comment) => {
+  if (comment.is_liked) {
+    ElMessage.info('您已经点过赞了')
+    return
+  }
+  try {
+    const res = await axios.post(
+      `/api/v1/dish/${route.params.id}/comment/${comment.comment_id}/like`,
+      {},
+      { withCredentials: true }
+    )
+    comment.likes = res.data.likes
+    comment.is_liked = true
+    ElMessage.success('点赞成功')
+  } catch (err) {
+    if (err.response?.status === 400) {
+      comment.is_liked = true
+      ElMessage.warning(err.response?.data?.msg || '您已经点过赞了')
+    } else if (err.response?.status === 401) {
+      ElMessage.warning('请先登录')
+    } else {
+      ElMessage.error(err.response?.data?.msg || '点赞失败')
+    }
+  }
 }
 
 const loadMoreComments = async () => {
+  if (commentPage.value > commentTotalPages.value) {
+    ElMessage.info('没有更多评论了')
+    return
+  }
   commentsLoading.value = true
   try {
     const res = await axios.get(
-      `/api/v1/dish/${route.params.id}/comments?page=2`,
+      `/api/v1/dish/${route.params.id}/comments?page=${commentPage.value}&per_page=10`,
       { withCredentials: true }
     )
     dish.value.comments.push(...res.data.comments)
+    commentTotalPages.value = res.data.pages
+    commentPage.value++
   } catch (err) {
     ElMessage.error('加载失败')
   } finally {
@@ -358,15 +469,52 @@ const loadMoreComments = async () => {
 const loadDishDetail = async () => {
   loading.value = true
   try {
-    const res = await axios.get(`/api/v1/dish/${route.params.id}`, {
-      withCredentials: true
-    })
-    dish.value = res.data
+    const [detailRes, statsRes] = await Promise.all([
+      axios.get(`/api/v1/dish/${route.params.id}`, { withCredentials: true }),
+      axios.get(`/api/v1/dish/${route.params.id}/rating-stats`, { withCredentials: true }).catch(() => null)
+    ])
+    dish.value = detailRes.data
+
+    // 加载评分分布
+    if (statsRes && statsRes.data) {
+      const colors = { 5: '#67c23a', 4: '#95d475', 3: '#e6a23c', 2: '#f89898', 1: '#f56c6c' }
+      const total = statsRes.data.total
+      ratingDistributionData.value = Object.entries(statsRes.data.stats)
+        .map(([star, count]) => ({
+          star: parseInt(star),
+          count,
+          percentage: total > 0 ? Math.round((count / total) * 100) : 0,
+          color: colors[star]
+        }))
+        .reverse()
+    }
+
+    // 重置评论分页
+    commentPage.value = 2
+    commentTotalPages.value = Math.ceil((dish.value.total_comments || 0) / 10)
+
+    // 加载套餐推荐
+    await loadCombo()
   } catch (err) {
     ElMessage.error(err.response?.data?.msg || '获取详情失败')
     router.push('/')
   } finally {
     loading.value = false
+  }
+}
+
+const loadCombo = async () => {
+  comboLoading.value = true
+  try {
+    const res = await axios.get(`/api/v1/dish/${route.params.id}/combo`, {
+      withCredentials: true
+    })
+    combo.value = res.data
+  } catch (err) {
+    console.error('加载套餐推荐失败:', err)
+    combo.value = { combo_items: [] }
+  } finally {
+    comboLoading.value = false
   }
 }
 
@@ -720,6 +868,149 @@ onMounted(() => {
   padding: 0 24px;
 }
 
+/* 智能搭配 */
+.combo-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.combo-section h4 {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.combo-list {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.combo-card {
+  flex: 1;
+  min-width: 140px;
+  max-width: 200px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.combo-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.combo-card.main-card {
+  border: 2px solid #67c23a;
+  cursor: default;
+}
+
+.combo-card.main-card:hover {
+  transform: none;
+}
+
+.combo-image {
+  height: 100px;
+  background: #f3f4f6;
+  overflow: hidden;
+}
+
+.combo-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.combo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+}
+
+.combo-info {
+  padding: 12px;
+}
+
+.combo-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.combo-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f56c6c;
+  margin-bottom: 8px;
+}
+
+.combo-meta {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.combo-co {
+  font-size: 11px;
+  color: #667eea;
+  background: #f5f3ff;
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+.combo-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #9ca3af;
+  padding: 0 4px;
+}
+
+.combo-summary {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: #f9fafb;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.combo-total {
+  font-size: 15px;
+  color: #374151;
+}
+
+.combo-total strong {
+  color: #f56c6c;
+  font-size: 18px;
+}
+
+.combo-budget {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
 /* 响应式 */
 @media (max-width: 1024px) {
   .detail-content {
@@ -728,6 +1019,10 @@ onMounted(() => {
 
   .comments-section {
     position: static;
+  }
+
+  .combo-list {
+    justify-content: center;
   }
 }
 

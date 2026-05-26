@@ -49,7 +49,8 @@ comment_item = dish_bp.model('CommentItem', {
     'content': fields.String,
     'created_at': fields.String,
     'is_anonymous': fields.Boolean,
-    'likes': fields.Integer
+    'likes': fields.Integer,
+    'is_liked': fields.Boolean
 })
 
 dish_detail = dish_bp.model('DishDetail', {
@@ -198,7 +199,8 @@ class DishDetail(Resource):
         RETURN u.user_id as user_id, u.username as username,
                r.rating as rating, r.content as content,
                r.created_at as created_at, r.is_anonymous as is_anonymous,
-               r.likes as likes
+               r.likes as likes, id(r) as rid,
+               r.liked_by as liked_by
         ORDER BY r.created_at DESC
         LIMIT 20
         """
@@ -235,15 +237,19 @@ class DishDetail(Resource):
 
         comments = []
         for r in comments_result:
+            liked_by = r.get('liked_by') or []
+            liked_by_strs = [str(x) for x in liked_by]
+            is_liked = str(user_id) in liked_by_strs if user_id is not None else False
             comments.append({
-                'comment_id': hash(str(r['created_at']) + str(r['user_id'])) % 1000000,
+                'comment_id': abs(int(r['user_id']) * 1000000000 + int(r['rating']) * 1000000 + int(r['rid'])),
                 'user_id': r['user_id'],
                 'username': '匿名用户' if r.get('is_anonymous') else r['username'],
                 'rating': r['rating'],
                 'content': r['content'] or '',
                 'created_at': str(r['created_at']) if r['created_at'] else '',
                 'is_anonymous': r.get('is_anonymous', False),
-                'likes': r.get('likes', 0)
+                'likes': r.get('likes', 0),
+                'is_liked': is_liked
             })
 
         return {
@@ -362,7 +368,8 @@ class DishCommentsList(Resource):
         RETURN u.user_id as user_id, u.username as username,
                r.rating as rating, r.content as content,
                r.created_at as created_at, r.is_anonymous as is_anonymous,
-               r.likes as likes
+               r.likes as likes, id(r) as rid,
+               r.liked_by as liked_by
         ORDER BY r.created_at DESC
         SKIP $skip LIMIT $limit
         """
@@ -371,17 +378,24 @@ class DishCommentsList(Resource):
                                     skip=skip,
                                     limit=per_page).data()
 
+        # 获取当前登录用户ID（可能未登录）
+        current_user_id = session.get('user_id')
+
         comments = []
         for r in comments_result:
+            liked_by = r.get('liked_by') or []
+            liked_by_strs = [str(x) for x in liked_by]
+            is_liked = str(current_user_id) in liked_by_strs if current_user_id is not None else False
             comments.append({
-                'comment_id': hash(str(r['created_at']) + str(r['user_id'])) % 1000000,
+                'comment_id': abs(int(r['user_id']) * 1000000000 + int(r['rating']) * 1000000 + int(r['rid'])),
                 'user_id': r['user_id'],
                 'username': '匿名用户' if r.get('is_anonymous') else r['username'],
                 'rating': r['rating'],
                 'content': r['content'] or '',
                 'created_at': str(r['created_at']) if r['created_at'] else '',
                 'is_anonymous': r.get('is_anonymous', False),
-                'likes': r.get('likes', 0)
+                'likes': r.get('likes', 0),
+                'is_liked': is_liked
             })
 
         return {
@@ -390,4 +404,92 @@ class DishCommentsList(Resource):
             'per_page': per_page,
             'pages': (total + per_page - 1) // per_page,
             'comments': comments
+        }
+
+
+@dish_bp.route("/<int:dish_id>/rating-stats")
+class DishRatingStats(Resource):
+    def get(self, dish_id):
+        """获取菜品评分分布统计"""
+        neo_id = cont_to_neo.get(int(dish_id))
+        if not neo_id:
+            dish_bp.abort(404, "菜品不存在")
+
+        graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
+
+        stats_query = """
+        MATCH (d:Dish)<-[r:RATED]-()
+        WHERE id(d) = $neo_id
+        RETURN r.rating as rating, count(r) as cnt
+        """
+        stats_result = graph.run(stats_query, neo_id=int(neo_id)).data()
+
+        stats = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+        total = 0
+        for row in stats_result:
+            rating = int(row['rating'])
+            cnt = int(row['cnt'])
+            if rating in stats:
+                stats[rating] = cnt
+                total += cnt
+
+        return {
+            'dish_id': dish_id,
+            'total': total,
+            'stats': stats,
+            'avg_rating': round(sum(k * v for k, v in stats.items()) / total, 2) if total > 0 else 0
+        }
+
+
+@dish_bp.route("/<int:dish_id>/comment/<int:comment_id>/like")
+class CommentLike(Resource):
+    def post(self, dish_id, comment_id):
+        """点赞评论"""
+        user_id = session.get('user_id')
+        if user_id is None:
+            dish_bp.abort(401, "请先登录")
+
+        neo_id = cont_to_neo.get(int(dish_id))
+        if not neo_id:
+            dish_bp.abort(404, "菜品不存在")
+
+        graph = Graph(NEO4J_URI, auth=NEO4J_AUTH)
+        user_id_str = str(user_id)
+
+        # 先检查是否已点赞
+        check_query = """
+        MATCH (d:Dish)<-[r:RATED]-(u:User)
+        WHERE id(d) = $neo_id
+        WITH r, u
+        WHERE abs(u.user_id * 1000000000 + r.rating * 1000000 + id(r)) = $comment_id
+        RETURN r.likes as likes, r.liked_by as liked_by, u.user_id as comment_user_id
+        """
+        check_result = graph.run(check_query, neo_id=int(neo_id), comment_id=int(comment_id)).data()
+
+        if not check_result:
+            dish_bp.abort(404, "评论不存在")
+
+        record = check_result[0]
+        liked_by = record.get('liked_by') or []
+        liked_by_strs = [str(x) for x in liked_by]
+
+        if user_id_str in liked_by_strs:
+            dish_bp.abort(400, "您已经点过赞了")
+
+        # 执行点赞
+        update_query = """
+        MATCH (d:Dish)<-[r:RATED]-(u:User)
+        WHERE id(d) = $neo_id
+        WITH r, u
+        WHERE abs(u.user_id * 1000000000 + r.rating * 1000000 + id(r)) = $comment_id
+        SET r.likes = coalesce(r.likes, 0) + 1,
+            r.liked_by = coalesce(r.liked_by, []) + $user_id_str
+        RETURN r.likes as likes
+        """
+        result = graph.run(update_query, neo_id=int(neo_id), comment_id=int(comment_id), user_id_str=user_id_str).data()
+
+        return {
+            'msg': '点赞成功',
+            'likes': result[0]['likes'],
+            'comment_id': comment_id
         }
